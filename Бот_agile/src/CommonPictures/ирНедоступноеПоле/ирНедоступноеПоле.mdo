@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9eb55488-08fd-439c-a653-a215b6d98bb1">
+  <name>ирНедоступноеПоле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир недоступное поле</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир недоступное поле</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир недоступное поле</value>
+  </synonym>
+</mdclass:CommonPicture>

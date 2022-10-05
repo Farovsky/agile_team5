@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="358b7d11-d129-4400-ab35-dea688506ed8">
+  <name>ирОбъединитьСсылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Объединить ссылки (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Объединить ссылки (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Объединить ссылки (ИР)</value>
+  </synonym>
+  <group>CommandGroup.ирКоманднаяПанельФормы</group>
+  <commandParameterType>
+    <types>CatalogRef.ирКомандаРедактироватьОбъект</types>
+    <types>CatalogRef.ирОбъектыДляОтладки</types>
+    <types>CatalogRef.ирАлгоритмы</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Передать ссылки в поиск и замену дублей в качестве группы дублей</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Передать ссылки в поиск и замену дублей в качестве группы дублей</value>
+  </toolTip>
+  <toolTip>
+    <key>uk</key>
+    <value>Передать ссылки в поиск и замену дублей в качестве группы дублей</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирПоискИЗаменаДублей</picture>
+  </picture>
+</mdclass:CommonCommand>

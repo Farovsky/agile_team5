@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="54ba02b3-2d0d-4a11-bb55-8b893e70d327">
+  <name>ирJSON</name>
+  <synonym>
+    <key>ru</key>
+    <value>JSON</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>JSON</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>JSON</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,524 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74f02185-54d7-4a9e-8ad5-f93fc6f0d12a">
+  <producedTypes>
+    <objectType typeId="1e295969-3c35-44f0-8e86-cf28aa0fb720" valueTypeId="bc1d8ba9-6a5a-4c90-9412-46eacdfea3a2"/>
+    <managerType typeId="78712484-42b8-4a39-8a23-5efc2e0d39ac" valueTypeId="7902acfc-e0b9-4a67-baeb-7969388c8adf"/>
+  </producedTypes>
+  <name>ирДинамическийСписок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Динамический список (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Динамический список (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Динамический список (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирДинамическийСписок.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.ирДинамическийСписок.Form.ФормаУпр</auxiliaryForm>
+  <attributes uuid="c0d3c15e-ee1f-4d8d-ad23-1e9fbfd25590">
+    <name>АдресХранилищаКоличестваСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес хранилища количества строк</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Адрес хранилища количества строк</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Адрес хранилища количества строк</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="66ab63b5-bea0-49d1-93a3-a739ec8c325b">
+    <name>ВместоОсновной</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вместо основной</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Вместо основной</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Вместо основной</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Использовать эту форму вместо основной формы выбора объекта метаданных. Переходить в основную форму можно кнопкой &quot;Основная форма&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Использовать эту форму вместо основной формы выбора объекта метаданных. Переходить в основную форму можно кнопкой &quot;Основная форма&quot;</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Использовать эту форму вместо основной формы выбора объекта метаданных. Переходить в основную форму можно кнопкой &quot;Основная форма&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7b5dd23f-60d7-455c-9cb7-6e9099978313">
+    <name>ИДФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>ИД фонового задания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>ИД фонового задания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>ИД фонового задания</value>
+    </synonym>
+    <type>
+      <types>UUID</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="49eda3b2-fb65-48b4-868a-f4c65ad1ca94">
+    <name>КоличествоСтрокВОбластиПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество строк в области поиска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество строк в области поиска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Количество строк в области поиска</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество строк в таблице без учета отборов. Вычисляется фоново при изменении выбранной таблицы либо синхронно по нажатию лупы.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Количество строк в таблице без учета отборов. Вычисляется фоново при изменении выбранной таблицы либо синхронно по нажатию лупы.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Количество строк в таблице без учета отборов. Вычисляется фоново при изменении выбранной таблицы либо синхронно по нажатию лупы.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a09f91fd-9cb6-48d0-8edb-4b364f7477c6">
+    <name>ПолноеИмяТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя таблицы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Полное имя таблицы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Полное имя таблицы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="055f743e-0264-4824-8adf-c260e659edfb">
+    <name>РежимИмяСиноним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим Имя/Синоним</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Режим Имя/Синоним</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Режим Имя/Синоним</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Переключение отображения имен/синонимов в шапках колонок</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Переключение отображения имен/синонимов в шапках колонок</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Переключение отображения имен/синонимов в шапках колонок</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8a603642-a3b0-4f9b-ad1a-650e97ae2c1e">
+    <name>СтарыйОбъектМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Старый объект метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Старый объект метаданных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Старый объект метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="eadbb7d4-b4fa-4dca-a0ac-a60e1c26d830">
+    <producedTypes>
+      <objectType typeId="86ea162b-84d8-4087-9edf-384ae2dcb24b" valueTypeId="0c7dc93b-8a8e-4350-83ba-cbad77088f51"/>
+      <rowType typeId="e310f462-d8f0-4add-aee3-fedf917f815f" valueTypeId="3d35b574-df2d-4dda-9bb5-988154960ec2"/>
+    </producedTypes>
+    <name>НастройкиКолонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки колонок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройки колонок</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Настройки колонок</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dce204af-3558-4af7-bc43-61474c916d48">
+      <name>Автовысота</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автовысота</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Автовысота</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Автовысота</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="96a08fe6-1414-4c29-9a07-06042a59eb02">
+      <name>Видимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Видимость</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Видимость</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Видимость</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="83286c8c-f790-4583-a461-95ed4cef5c12">
+      <name>ВысотаЯчейки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Высота ячейки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Высота ячейки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Высота ячейки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d8159ccd-e8fd-4ebb-b19b-9e5d5bfdb16b">
+      <name>Заголовок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Заголовок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Заголовок</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Заголовок</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4d11940a-8034-44ea-8fb0-4d533ebe148a">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="28226c0d-500e-4f2b-b6ab-78d36ff88c68">
+      <name>Положение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Положение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Положение</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Положение</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d4c13b5c-3ba9-4353-b220-c0f1f3c5d7a1">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип значения</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип значения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4f521513-2bb3-49a2-86ce-a0368ef7fabc">
+      <name>Ширина</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ширина</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Ширина</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ширина</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="39af25eb-2c5d-4489-aa23-5cb4a62b9ff7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9700b528-caa4-4d0e-b669-29181c8306a3">
+    <name>ФормаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма упр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма упр</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма упр</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e3cc3f48-8282-4867-8495-5a260e105491">
+    <name>НастройкиСпискаУпр</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки списка упр</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройки списка упр</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Настройки списка упр</value>
+    </synonym>
+    <includeHelpInContents>true</includeHelpInContents>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="65e28002-a529-454d-b658-4b895a8f0b99">
+    <name>НастройкиКолонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки колонок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройки колонок</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Настройки колонок</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="a7590d9a-33d6-4441-b852-c8f2fcfc063c">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамический список (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Динамический список (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Динамический список (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

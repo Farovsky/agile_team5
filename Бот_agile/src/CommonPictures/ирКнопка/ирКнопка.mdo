@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cdcada96-1985-4928-834b-0111944363e4">
+  <name>ирКнопка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кнопка</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Кнопка</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Кнопка</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e477efbc-5502-4722-8ef5-d07f2da30b10">
+  <producedTypes>
+    <objectType typeId="7bb80145-fce2-4fc5-90c5-a7a7deb849b0" valueTypeId="00d9e1fb-0e2f-4651-83d8-ffede2a379a5"/>
+    <managerType typeId="d9c630ae-78b8-4f5e-bdd0-ffcc40c9bc29" valueTypeId="48d3a119-69c7-42c1-ba3d-8b52b35fa7fd"/>
+  </producedTypes>
+  <name>ирСинтаксПомощник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Синтакс помощник (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Синтакс помощник (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Синтакс помощник (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирСинтаксПомощник.Form.Форма</defaultForm>
+  <tabularSections uuid="af9afa32-0943-4577-8fd1-a1d4192d9b4a">
+    <producedTypes>
+      <objectType typeId="106f3ac7-adea-4224-939f-94aafcd4ffc6" valueTypeId="a3fdd851-14b0-4332-93cd-cb2c52333b70"/>
+      <rowType typeId="0b3cf743-bcd7-4a73-9b3d-1930d1960cc4" valueTypeId="97850dd9-f2f4-41c3-85ee-4940f9c5d057"/>
+    </producedTypes>
+    <name>ТаблицаИндекса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица индекса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Таблица индекса</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Таблица индекса</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3cc0fb06-5dc1-4dc2-9a2b-803ee0e3b2d1">
+      <name>ПутьКСлову</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к слову</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Путь к слову</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Путь к слову</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="cf988f63-3e43-4b3e-9620-b4aaba717def">
+      <name>НПутьКСлову</name>
+      <synonym>
+        <key>ru</key>
+        <value>Н путь к слову</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Н путь к слову</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Н путь к слову</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d984b8bc-7729-4224-a423-12adc459552b">
+      <name>ПутьКОписанию</name>
+      <synonym>
+        <key>ru</key>
+        <value>Путь к описанию</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Путь к описанию</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Путь к описанию</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="23cf1aae-713d-4268-9d95-19f24e9aad4e">
+      <name>Варианты</name>
+      <synonym>
+        <key>ru</key>
+        <value>Варианты</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Варианты</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Варианты</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>3</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="9861e17b-a985-4dc2-adca-079fddb44315">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3c9eefa5-543e-4a22-b5af-bcb97d1caacb">
+    <name>ВерсииПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версии платформы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Версии платформы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Версии платформы</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="5b061b2e-0535-40d2-a602-26c3cbdbedb6">
+    <name>СтилиСинтаксПомощника</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стили синтакс помощника</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Стили синтакс помощника</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Стили синтакс помощника</value>
+    </synonym>
+    <comment>Таблица каскадных стилей (CSS) для отображения страниц синтакс-помощника</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="996c0d92-4f2d-4994-8c8d-9eedacb5e7a2">
+    <name>Книги</name>
+    <synonym>
+      <key>ru</key>
+      <value>Книги</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Книги</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Книги</value>
+    </synonym>
+  </templates>
+  <commands uuid="ace25b95-6377-46ae-8b6b-58ea1705c376">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Синтакс помощник (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Синтакс помощник (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Синтакс помощник (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

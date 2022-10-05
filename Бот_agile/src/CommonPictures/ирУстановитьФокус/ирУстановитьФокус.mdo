@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="81ba994f-39c2-4276-bbc1-6634a6556eaa">
+  <name>ирУстановитьФокус</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установить фокус</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Установить фокус</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Установить фокус</value>
+  </synonym>
+</mdclass:CommonPicture>

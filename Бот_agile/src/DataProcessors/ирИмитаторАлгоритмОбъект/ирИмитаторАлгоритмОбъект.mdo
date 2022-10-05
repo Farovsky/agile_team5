@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34568fa0-ecdb-459f-893e-8c337709802d">
+  <producedTypes>
+    <objectType typeId="ac4455f3-7e7d-4cca-8878-f15c09e6816d" valueTypeId="817446a6-568b-4b80-9a48-8216e976f368"/>
+    <managerType typeId="8723ce32-437c-4b0a-a577-0f694039936a" valueTypeId="736a42df-a477-4275-9c72-edcced064bd6"/>
+  </producedTypes>
+  <name>ирИмитаторАлгоритмОбъект</name>
+  <synonym>
+    <key>ru</key>
+    <value>Алгоритм объект</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Алгоритм объект</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Алгоритм объект</value>
+  </synonym>
+  <comment>Вспомогательная</comment>
+  <attributes uuid="d81354f5-57e8-4e49-99a5-8cfb6db3c3af">
+    <name>ТекстАлгоритма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текст алгоритма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Текст алгоритма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Текст алгоритма</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <extendedEdit>true</extendedEdit>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fa80f047-7537-40dd-8dfd-a28bed8bd634">
+    <name>ДатаИзменения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дата изменения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a115f8e8-6d28-45fe-8cd9-a8867b7191e0">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментарий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="7af4efb3-2d90-4d26-a212-8d58e7240f41">
+    <name>ОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="199a58f2-d22e-4754-aa8c-b415beab261e">
+    <name>Наименование</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Наименование</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Наименование</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>150</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="a0643656-0972-45af-974d-2fdfdb242f4b">
+    <producedTypes>
+      <objectType typeId="09767d07-1054-43a0-82a2-2dad7a4b1b6b" valueTypeId="c479bd73-4cf9-4552-9b5a-d77785e98131"/>
+      <rowType typeId="61fe2ff4-0e27-4c18-aecb-7c24812ab47e" valueTypeId="980ea624-5591-4909-a2e6-d3adf15f0484"/>
+    </producedTypes>
+    <name>Параметры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Параметры</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Параметры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="4473840e-034f-4b6a-9cbe-208028fe91cc">
+      <name>Вход</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вход</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вход</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Вход</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="da7e3b69-64b1-422d-85f2-f47baebeafec">
+      <name>Выход</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выход</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Выход</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Выход</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1f2aea42-9cae-47c9-bcda-f9eecde9f4e3">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>5</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="07d3d781-414c-4343-bd50-ea3cb16ae535">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+</mdclass:DataProcessor>

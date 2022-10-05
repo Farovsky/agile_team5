@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1423c9b4-a549-4267-b8c9-c449c8c88cda">
+  <name>ирВыпускВариантаРасширение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выпуск варианта Расширение (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Выпуск варианта Расширение (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Выпуск варианта Расширение (ИР)</value>
+  </synonym>
+  <formType>Ordinary</formType>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7bf512b6-6d3d-4bbc-b668-11242da073f0">
+  <producedTypes>
+    <objectType typeId="9744bc94-7042-42a9-b1d7-8ef7f5f5f5aa" valueTypeId="d449e3c5-d727-4c40-9c6c-b0faac91de4c"/>
+    <managerType typeId="fb58acff-1a02-4d99-bc3b-f145908b1a2a" valueTypeId="3d022a14-e2c5-42fd-a083-e304f45c9563"/>
+  </producedTypes>
+  <name>ирАнализПравНаБазу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ прав на базу (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Анализ прав на базу (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Анализ прав на базу (ИР)</value>
+  </synonym>
+  <defaultForm>Report.ирАнализПравНаБазу.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ирАнализПравНаБазу.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="78dda555-465d-4ad4-93ac-1290523c73f3">
+    <name>НаборРолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор ролей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Набор ролей</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Набор ролей</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b80cb4a5-b6e9-4e86-b838-d96866f32762">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="f36480f6-89a0-4965-94e8-2984bf9e0642">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3f874eca-5b42-4f92-b90b-2ddc168bd355">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="6c74a384-4ef9-45af-ae15-34394894b790">
+    <name>ДоступныеПрава</name>
+    <synonym>
+      <key>ru</key>
+      <value>Доступные права</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Доступные права</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Доступные права</value>
+    </synonym>
+  </templates>
+  <commands uuid="043f6569-f0d2-471a-bc30-1a3dc1e29c6a">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ прав на базу (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Анализ прав на базу (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Анализ прав на базу (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

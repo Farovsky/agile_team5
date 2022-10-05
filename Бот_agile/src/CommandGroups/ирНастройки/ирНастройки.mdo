@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="da12e011-27c3-48d5-93ee-daafe5e97b3b">
+  <name>ирНастройки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Настройки</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Настройки</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>ActionsPanel</category>
+</mdclass:CommandGroup>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb3a310f-3fac-434b-bf2b-56d196a2f68d">
+  <name>ирЦиклическиеСсылки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Циклические ссылки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Циклические ссылки</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Циклические ссылки</value>
+  </synonym>
+</mdclass:CommonPicture>

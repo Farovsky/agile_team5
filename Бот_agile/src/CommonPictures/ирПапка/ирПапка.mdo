@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e07eca19-6d80-4b11-8c86-d17d2e650fc6">
+  <name>ирПапка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Папка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Папка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Папка (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

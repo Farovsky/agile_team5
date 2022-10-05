@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d61b7c71-1cf1-42ee-957c-e8ff85e48653">
+  <name>TelegramGetUpdates</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram getUpdates</value>
+  </synonym>
+  <methodName>CommonModule.ФоновыеЗаданияСервер.TelegramGetUpdates</methodName>
+  <description>Telegram getUpdates</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

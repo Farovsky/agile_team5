@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bb964a65-54ad-400d-a1ed-1d63e10d404d">
+  <name>ирВременнаяТаблица</name>
+  <synonym>
+    <key>ru</key>
+    <value>Временная таблица (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Временная таблица (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Временная таблица (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,466 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f402b6c9-8b8d-408f-892d-325ceb6dcb51">
+  <producedTypes>
+    <objectType typeId="1c332e94-70b1-4859-aac6-9dd217bb0568" valueTypeId="59758c7a-bf35-480a-97f3-fa737124f1bd"/>
+    <managerType typeId="dce2e574-3d4d-4747-ae3d-a60d5457e02c" valueTypeId="75187566-7f9d-483c-b155-0fa3799f7359"/>
+  </producedTypes>
+  <name>ирУправлениеПрофайлами1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление профайлами 1C (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Управление профайлами 1C (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Управление профайлами 1C (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирУправлениеПрофайлами1С.Form.Форма</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="587def86-6159-42f3-ba1e-4edda97ec18a">
+    <name>База</name>
+    <synonym>
+      <key>ru</key>
+      <value>База</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>База</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>База</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7583dc6-f283-48f4-bbb4-a813a9717972">
+    <name>ИдентификаторБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Идентификатор базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="63ed9f68-2e8c-4ee5-ba18-a903f2ba53bb">
+    <name>ИдентификаторПользователя1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор пользователя 1С</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Идентификатор пользователя 1С</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Идентификатор пользователя 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>36</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ccbca461-ad87-4828-b573-8cf4046b3583">
+    <name>КаталогКэшейБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог кэшей базы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Каталог кэшей базы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Каталог кэшей базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="38bc1ba4-8794-43b2-b986-97e9625d6f98">
+    <name>КаталогПользователя1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог пользователя 1С</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Каталог пользователя 1С</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Каталог пользователя 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2300d56-4d31-4daa-9350-b19aa3a98ab5">
+    <name>Пользователь1С</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь 1С</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь 1С</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пользователь 1С</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="40970ea0-45a8-4fe9-a6b7-c2c1d70f2a6d">
+    <name>ПользовательОС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь ОС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь ОС</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пользователь ОС</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82a5357c-bf82-40ba-ade5-f7fc06099529">
+    <name>КаталогБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог базы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Каталог базы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Каталог базы</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="02f625ac-d076-40f1-af49-aa8ef168251e">
+    <producedTypes>
+      <objectType typeId="6716ef0f-ea7a-4e4b-a0ed-7753ce79e2e7" valueTypeId="ee2a5ed4-c147-4b7d-8549-1a48d16252fe"/>
+      <rowType typeId="48fd609c-5baf-4bf3-8994-397297dcf03d" valueTypeId="11f17985-b304-413f-806f-951cfaa96188"/>
+    </producedTypes>
+    <name>Файлы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файлы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Файлы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Файлы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b3ceb052-a00a-43d1-b23a-deb08aa9f78b">
+      <name>ДатаИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Дата изменения</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="339a5d9e-5df8-484d-9377-8f6071165843">
+      <name>КраткоеИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Краткое имя файла</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Краткое имя файла</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Краткое имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c17d7c96-9385-43ef-be8e-c6e0f99aa391">
+      <name>ЛогическийПуть</name>
+      <synonym>
+        <key>ru</key>
+        <value>Логический путь</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Логический путь</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Логический путь</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="43e936e5-6c7b-416c-a1a8-aa76b4b5d1ba">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4c73af48-5de5-4752-948f-6b3310df4bee">
+      <name>ПолноеИмяФайла</name>
+      <synonym>
+        <key>ru</key>
+        <value>Полное имя файла</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Полное имя файла</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Полное имя файла</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0e1cdcf2-e8b6-4630-be00-56ef41c79cdb">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="79f0198f-15b6-4b55-92ba-1f272d0a8454">
+      <name>ПринадлежностьДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Принадлежность данных</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Принадлежность данных</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Принадлежность данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1f54e4f8-4705-4516-a80a-a9e860ff5ee9">
+      <name>РазмерБайт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер байт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Размер байт</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Размер байт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="324bcb0c-3be5-470c-85ae-9ef6af3f01d7">
+      <name>ФайлСуществует</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файл существует</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Файл существует</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Файл существует</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="eea5ae66-6037-42da-8664-d2c3fd33be73">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="895dfb71-b2c3-4193-bf63-57652fd45460">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление профайлами 1C (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Управление профайлами 1C (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Управление профайлами 1C (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

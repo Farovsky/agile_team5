@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d148897d-3516-4f0a-a5ab-cc5a73eca570">
+  <name>ирПереключитьИнтерфейс</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переключить интерфейс (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Переключить интерфейс (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Переключить интерфейс (ИР)</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>2</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

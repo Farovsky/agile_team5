@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GraphicalSchema xmlns="http://v8.1c.ru/8.3/xcf/scheme" xmlns:sch="http://v8.1c.ru/8.2/data/graphscheme" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<BackColor>style:FieldBackColor</BackColor>
+	<GridEnabled>true</GridEnabled>
+	<DrawGridMode>Lines</DrawGridMode>
+	<GridHorizontalStep>20</GridHorizontalStep>
+	<GridVerticalStep>20</GridVerticalStep>
+	<PrintParameters>
+		<TopMargin>10</TopMargin>
+		<LeftMargin>10</LeftMargin>
+		<BottomMargin>10</BottomMargin>
+		<RightMargin>10</RightMargin>
+		<BlackAndWhite>false</BlackAndWhite>
+		<FitPageMode>Auto</FitPageMode>
+	</PrintParameters>
+	<Items>
+		<Start id="1" uuid="6ec1e3ad-49a1-4ffb-a4a1-146616a9e211">
+			<Properties>
+				<Name>Старт</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Старт</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>1</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>0</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="20" left="220" bottom="60" right="300"/>
+				<Border width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Border>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+			</Properties>
+			<Events>
+				<Event name="BeforeStart">СтартПередСтартом</Event>
+			</Events>
+		</Start>
+		<ConnectionLine id="2">
+			<Properties>
+				<Name>Линия1</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>2</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>1</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="260" y="60"/>
+					<Point x="260" y="80"/>
+					<Point x="260" y="80"/>
+					<Point x="260" y="100"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>Старт</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>ДействиеЧтоДелалВчера</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>false</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<Activity id="3" uuid="eba52b7e-6575-41ce-9707-d96dacde4f71">
+			<Properties>
+				<Name>ДействиеЧтоДелалВчера</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Что делал вчера?</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>3</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>2</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="100" left="180" bottom="140" right="340"/>
+				<Border width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Border>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<TaskDescription>Что делал вчера?</TaskDescription>
+				<Explanation/>
+				<Group>false</Group>
+				<AddressingAttributes/>
+			</Properties>
+			<Events>
+				<Event name="InteractiveActivationProcessing"/>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask">ДействиеЧтоДелалВчераПриСозданииЗадач</Event>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecuteInteractively"/>
+			</Events>
+		</Activity>
+		<ConnectionLine id="4">
+			<Properties>
+				<Name>Линия2</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>4</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>3</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="260" y="140"/>
+					<Point x="260" y="160"/>
+					<Point x="260" y="160"/>
+					<Point x="260" y="180"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>ДействиеЧтоДелалВчера</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>ДействиеЧтоБудешьДелатьСегодня</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>false</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<Activity id="5" uuid="8791ecbf-a7bc-4e5c-a6e7-2161a86d820a">
+			<Properties>
+				<Name>ДействиеЧтоБудешьДелатьСегодня</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Что будешь делать сегодня?</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>5</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>4</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="180" left="180" bottom="220" right="340"/>
+				<Border width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Border>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<TaskDescription>Что будешь делать сегодня?</TaskDescription>
+				<Explanation/>
+				<Group>false</Group>
+				<AddressingAttributes/>
+			</Properties>
+			<Events>
+				<Event name="InteractiveActivationProcessing"/>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask">ДействиеЧтоБудешьДелатьСегодняПриСозданииЗадач</Event>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecuteInteractively"/>
+			</Events>
+		</Activity>
+		<ConnectionLine id="6">
+			<Properties>
+				<Name>Линия3</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>6</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>5</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="260" y="220"/>
+					<Point x="260" y="240"/>
+					<Point x="260" y="240"/>
+					<Point x="260" y="260"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>ДействиеЧтоБудешьДелатьСегодня</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>ДействиеКакиеПроблемы</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>false</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<Activity id="7" uuid="e92cb950-e5e2-4b67-8f82-e9d5c6afdedb">
+			<Properties>
+				<Name>ДействиеКакиеПроблемы</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Какие проблемы?</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>7</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>6</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="260" left="180" bottom="300" right="340"/>
+				<Border width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Border>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+				<TaskDescription>Какие проблемы?</TaskDescription>
+				<Explanation/>
+				<Group>false</Group>
+				<AddressingAttributes/>
+			</Properties>
+			<Events>
+				<Event name="InteractiveActivationProcessing"/>
+				<Event name="BeforeCreateTasks"/>
+				<Event name="OnCreateTask">ДействиеКакиеПроблемыПриСозданииЗадач</Event>
+				<Event name="OnExecute"/>
+				<Event name="CheckExecutionProcessing"/>
+				<Event name="BeforeExecute"/>
+				<Event name="BeforeExecuteInteractively"/>
+			</Events>
+		</Activity>
+		<ConnectionLine id="8">
+			<Properties>
+				<Name>Линия4</Name>
+				<Title/>
+				<ToolTip/>
+				<TabOrder>8</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>7</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<PivotPoints>
+					<Point x="260" y="300"/>
+					<Point x="260" y="320"/>
+					<Point x="260" y="320"/>
+					<Point x="260" y="340"/>
+				</PivotPoints>
+				<Connect>
+					<From>
+						<Item>ДействиеКакиеПроблемы</Item>
+						<PortIndex>4</PortIndex>
+					</From>
+					<To>
+						<Item>Завершение</Item>
+						<PortIndex>2</PortIndex>
+					</To>
+				</Connect>
+				<Line width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Line>
+				<DecorativeLine>false</DecorativeLine>
+				<TextLocation>FirstSegment</TextLocation>
+				<BeginArrow>None</BeginArrow>
+				<EndArrow>Filled</EndArrow>
+			</Properties>
+		</ConnectionLine>
+		<Completion id="9" uuid="57d2aeeb-6404-4edc-8cd1-d5d878227bf5">
+			<Properties>
+				<Name>Завершение</Name>
+				<Title>
+					<v8:item>
+						<v8:lang>ru</v8:lang>
+						<v8:content>Завершение</v8:content>
+					</v8:item>
+				</Title>
+				<ToolTip/>
+				<TabOrder>9</TabOrder>
+				<BackColor>auto</BackColor>
+				<TextColor>style:FormTextColor</TextColor>
+				<LineColor>style:BorderColor</LineColor>
+				<GroupNumber>0</GroupNumber>
+				<ZOrder>8</ZOrder>
+				<Hyperlink>false</Hyperlink>
+				<Transparent>false</Transparent>
+				<Font kind="AutoFont"/>
+				<HorizontalAlign>Center</HorizontalAlign>
+				<VerticalAlign>Center</VerticalAlign>
+				<PictureLocation>Left</PictureLocation>
+				<Location top="340" left="220" bottom="400" right="300"/>
+				<Border width="1" gap="false">
+					<v8ui:style xsi:type="sch:ConnectorLineType">Solid</v8ui:style>
+				</Border>
+				<Picture/>
+				<PictureSize>AutoSize</PictureSize>
+			</Properties>
+			<Events>
+				<Event name="OnComplete">ЗавершениеПриЗавершении</Event>
+			</Events>
+		</Completion>
+	</Items>
+</GraphicalSchema>

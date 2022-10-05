@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9874f7cc-b882-4c78-b427-52a69427221b">
+  <name>ирАвтоКонтекстнаяПомощь</name>
+  <synonym>
+    <key>ru</key>
+    <value>Авто контекстная помощь (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Авто контекстная помощь (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Авто контекстная помощь (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

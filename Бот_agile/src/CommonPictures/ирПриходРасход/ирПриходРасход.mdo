@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="74b0a5b0-c9fe-4d5b-8322-2c2e0d3f263b">
+  <name>ирПриходРасход</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приход расход</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Приход расход</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Приход расход</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="531e0dd3-aa06-4578-b614-770f30d5dd3f">
+  <name>ирОбработатьОбъекты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обработать объекты (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Обработать объекты (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Обработать объекты (ИР)</value>
+  </synonym>
+  <comment>Для любых ссылочных объектов</comment>
+  <group>CommandGroup.ирКоманднаяПанельФормы</group>
+  <commandParameterType>
+    <types>CatalogRef.ирКомандаРедактироватьОбъект</types>
+    <types>CatalogRef.ирОбъектыДляОтладки</types>
+    <types>CatalogRef.ирАлгоритмы</types>
+  </commandParameterType>
+  <parameterUseMode>Multiple</parameterUseMode>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Передать ссылки в подбор и обработку объектов</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Передать ссылки в подбор и обработку объектов</value>
+  </toolTip>
+  <toolTip>
+    <key>uk</key>
+    <value>Передать ссылки в подбор и обработку объектов</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирОбработкаОбъектов</picture>
+  </picture>
+</mdclass:CommonCommand>

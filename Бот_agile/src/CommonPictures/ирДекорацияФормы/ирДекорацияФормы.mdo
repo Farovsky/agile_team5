@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f7f59026-5bc5-46c5-853f-668b083893ec">
+  <name>ирДекорацияФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Декорация формы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Декорация формы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Декорация формы</value>
+  </synonym>
+</mdclass:CommonPicture>

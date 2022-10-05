@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a3fe436d-9e10-4c70-83c7-830e7fee57d6">
+  <name>ирКотекстныйСинтаксПомощник</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контекстный синтакс-помощник (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Контекстный синтакс-помощник (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Контекстный синтакс-помощник (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

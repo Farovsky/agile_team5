@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommandGroup xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="081cc825-776f-4903-aad7-957fd3d5b58f">
+  <name>ирКоманднаяПанельФормы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Общее (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Общее (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Общее (ИР)</value>
+  </synonym>
+  <representation>Auto</representation>
+  <category>FormCommandBar</category>
+</mdclass:CommandGroup>

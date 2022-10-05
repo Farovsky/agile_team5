@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2350ced9-9887-479b-b3b3-66fa8ff7d688">
+  <name>ирКолонкаТабличногоПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Колонка табличного поля (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Колонка табличного поля (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Колонка табличного поля (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

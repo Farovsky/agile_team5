@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f0ebb5dc-978f-45d6-8d6d-90002b451026">
+  <name>ирМенеджерТабличногоПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Менеджер табличного поля (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Менеджер табличного поля (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Менеджер табличного поля (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c7364055-8f08-4482-88dd-182067de9c85">
+  <producedTypes>
+    <objectType typeId="3a25830a-a7ce-4479-acaa-b7ec47113b53" valueTypeId="f52552d7-0f5b-4244-950a-f794c1da748e"/>
+    <managerType typeId="6a0a3382-cc09-4f83-9505-b5020fa26a80" valueTypeId="8754e238-f652-4968-a14d-b0957f6ebe97"/>
+  </producedTypes>
+  <name>ирВводВыраженияВстроенногоЯзыка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод выражения встроенного языка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ввод выражения встроенного языка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ввод выражения встроенного языка (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирВводВыраженияВстроенногоЯзыка.Form.Форма</defaultForm>
+  <attributes uuid="33789885-a172-438c-9c0d-71fccfdee14e">
+    <name>КонтекстВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекст, в котором будет выполняться программный код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Контекст, в котором будет выполняться программный код</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Контекст, в котором будет выполняться программный код</value>
+    </synonym>
+    <comment>Если не задан, используется глобальный контекст.</comment>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e3b14ea1-cff2-4b61-9500-9b19e901539b">
+    <name>МетодВыполнения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Метод, который будет вызван у объекта выполнения для выполнения прогаммы. Должен иметь один параметр - текст для выполнения в своем контексте.</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Метод, который будет вызван у объекта выполнения для выполнения прогаммы. Должен иметь один параметр - текст для выполнения в своем контексте.</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Метод, который будет вызван у объекта выполнения для выполнения прогаммы. Должен иметь один параметр - текст для выполнения в своем контексте.</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b3215188-a680-430a-af57-c0437fafe51b">
+    <name>НаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>На сервере</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>На сервере</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>На сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="06324df3-9cc4-47f6-a0d3-6a71911a49b1">
+    <name>Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Описание</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Описание</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d7ae4c99-16a3-4d29-8845-07715134a34d">
+    <name>Формула</name>
+    <synonym>
+      <key>ru</key>
+      <value>Формула</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Формула</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Формула</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="37d0ccc2-d7e4-437b-af2a-1d300da0955b">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e4b1c803-3e56-419e-9588-338935cdad8a">
+  <name>ирКонсольПостроителейОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль построителей отчетов (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Консоль построителей отчетов (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Консоль построителей отчетов (ИР)</value>
+  </synonym>
+  <transparentPixel>
+    <x>2</x>
+    <y>12</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

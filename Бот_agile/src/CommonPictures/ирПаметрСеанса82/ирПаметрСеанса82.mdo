@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0fd2be3f-4e31-49b9-b8c6-4801a896a1f5">
+  <name>ирПаметрСеанса82</name>
+  <synonym>
+    <key>ru</key>
+    <value>Паметр сеанса82 (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Паметр сеанса82 (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Паметр сеанса82 (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

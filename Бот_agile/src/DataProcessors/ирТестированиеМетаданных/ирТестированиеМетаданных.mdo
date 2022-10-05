@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f79b1ba-77d7-49a2-9614-e4e86b3c33ac">
+  <producedTypes>
+    <objectType typeId="31435f1c-d614-4457-a611-ca401fec8678" valueTypeId="4bd9a8e6-8c22-4c70-b06f-ff6d876ded73"/>
+    <managerType typeId="3c719788-4647-40bc-ac41-105256ce4657" valueTypeId="09671b29-4d5b-46ab-93f9-536ad61cf965"/>
+  </producedTypes>
+  <name>ирТестированиеМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Тестирование метаданных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Тестирование метаданных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Тестирование метаданных (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирТестированиеМетаданных.Form.Форма</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Все изменения в БД не сохраняются, т.к. все выполняется в отменяемых транзакциях.</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Все изменения в БД не сохраняются, т.к. все выполняется в отменяемых транзакциях.</value>
+  </explanation>
+  <explanation>
+    <key>uk</key>
+    <value>Все изменения в БД не сохраняются, т.к. все выполняется в отменяемых транзакциях.</value>
+  </explanation>
+  <attributes uuid="531c1cba-64e4-4d4a-8a1e-17670eb93b23">
+    <name>ВыводитьСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить сообщения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выводить сообщения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выводить сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выводить информационные сообщения. Полезно при безусловном завершении работы программы при выполнении теста.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выводить информационные сообщения. Полезно при безусловном завершении работы программы при выполнении теста.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выводить информационные сообщения. Полезно при безусловном завершении работы программы при выполнении теста.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ed8c0e7c-223d-47c9-ae0e-bcaa7cb6e676">
+    <name>КаталогВнешнихМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Каталог внешних метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Каталог внешних метаданных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Каталог внешних метаданных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6fdc7273-090c-4952-b7cc-7b5b37f04874">
+    <name>НедостающиеОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недостающие объекты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Недостающие объекты</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Недостающие объекты</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="8b9e98fb-ce1b-4eea-be76-e5c932aa9b49">
+    <name>ОбъектыМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Объекты метаданных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Объекты метаданных</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0d458252-5fd3-46f8-b446-e07d24ea99c0">
+    <name>Ошибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ошибки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ошибки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ошибки</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="004d0e36-2346-403d-896a-b99302175dad">
+    <name>ПроверятьВРежимеВнешнееСоединение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять в режиме внешнее соединение</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять в режиме внешнее соединение</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять в режиме внешнее соединение</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f56ac070-f749-408e-93de-701a07aeea02">
+    <name>ПроверятьНеосновныеФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять неосновные формы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять неосновные формы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять неосновные формы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cb342963-5dbf-4d15-ac70-d3e96e7eb353">
+    <name>ПроверятьОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять объекты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять объекты</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять объекты</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если есть, берется любой существующий объект, записывается, записывается его копия. Создается новый объект и заполняется непустыми данными. При этом возможны ложные срабатывания, т.к. заполнение без учета смысла.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Если есть, берется любой существующий объект, записывается, записывается его копия. Создается новый объект и заполняется непустыми данными. При этом возможны ложные срабатывания, т.к. заполнение без учета смысла.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Если есть, берется любой существующий объект, записывается, записывается его копия. Создается новый объект и заполняется непустыми данными. При этом возможны ложные срабатывания, т.к. заполнение без учета смысла.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d9f6a410-ee48-485d-bcb0-b8b4f9e7817d">
+    <name>ПроверятьТолькоОшибочные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять только ошибочные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять только ошибочные</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять только ошибочные</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e27c781-a295-415a-a7cb-0e86d8753b49">
+    <name>ПроверятьФормы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять формы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять формы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять формы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Каждая форма конфигурации создается, открывается и закрывается. Для форм ссылочных объектов в памяти делается копия любого существующего объекта или создается новый объект с непустыми реквизитами без учета их смысла.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Каждая форма конфигурации создается, открывается и закрывается. Для форм ссылочных объектов в памяти делается копия любого существующего объекта или создается новый объект с непустыми реквизитами без учета их смысла.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Каждая форма конфигурации создается, открывается и закрывается. Для форм ссылочных объектов в памяти делается копия любого существующего объекта или создается новый объект с непустыми реквизитами без учета их смысла.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="deab182d-3dcf-4ca1-82cb-0be6a7223dca">
+    <name>ПроверятьФормыОбработок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять формы обработок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять формы обработок</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять формы обработок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4bf66dc3-81cc-4eb6-b057-93cafdbf9e8f">
+    <name>ПроверятьФормыОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять формы отчетов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять формы отчетов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять формы отчетов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0dd6fb93-a073-4bf4-9612-d593b869f8d1">
+    <name>ПроверятьЭлементыФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверять элементы форм</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проверять элементы форм</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проверять элементы форм</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="e0e1a3e2-34b2-4778-92e5-ccfa30dd52d3">
+    <producedTypes>
+      <objectType typeId="3753f708-0d89-4496-8229-a662eed89c51" valueTypeId="7279762b-fde7-4942-b2ea-ea1ac5cd5710"/>
+      <rowType typeId="816ec21a-ffeb-4b15-8a31-0dd3c58cda5f" valueTypeId="822a8362-9a14-436b-9fc9-f04852f7e876"/>
+    </producedTypes>
+    <name>ИгнорируемыеСигнатуры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Игнорируемые сигнатуры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Игнорируемые сигнатуры</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Игнорируемые сигнатуры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dd93cb73-ab17-4912-b95e-a58edb0a1aad">
+      <name>Строка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="eb1fd6fb-c800-4fd2-a3f1-75453b3024b1">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="668cd494-699c-4726-91a1-9d19f9f979aa">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="795ddf83-6d22-41b2-b6a7-d052e1c8ffde">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тестирование метаданных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тестирование метаданных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тестирование метаданных (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

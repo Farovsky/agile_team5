@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <horizontalAlign>Left</horizontalAlign>
+    <autoFill>true</autoFill>
+  </autoCommandBar>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ирПриСозданииНаСервереПосле</name>
+  </handlers>
+  <autoTitle>true</autoTitle>
+  <autoUrl>true</autoUrl>
+  <group>Vertical</group>
+  <autoFillCheck>true</autoFillCheck>
+  <allowFormCustomize>true</allowFormCustomize>
+  <enabled>true</enabled>
+  <showTitle>true</showTitle>
+  <showCloseButton>true</showCloseButton>
+  <formCommands>
+    <name>ирОтладить</name>
+    <title>
+      <key>ru</key>
+      <value>Отладить (ИР)</value>
+    </title>
+    <title>
+      <key>en</key>
+      <value>Отладить (ИР)</value>
+    </title>
+    <title>
+      <key>uk</key>
+      <value>Отладить (ИР)</value>
+    </title>
+    <id>1</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Отладить схему и настройки компоновки в консоли компоновки данных (ИР)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Отладить схему и настройки компоновки в консоли компоновки данных (ИР)</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Отладить схему и настройки компоновки в консоли компоновки данных (ИР)</value>
+    </toolTip>
+    <use>
+      <for>
+        <value>true</value>
+        <role>Role.ирРазработчик</role>
+      </for>
+    </use>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ирОтладка</picture>
+    </picture>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ирОтладить</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <commandInterface>
+    <navigationPanel/>
+    <commandBar/>
+  </commandInterface>
+</form:Form>

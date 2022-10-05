@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d09b91c8-7dec-4b7d-91e2-39f75a759cee">
+  <producedTypes>
+    <refType typeId="dda6a6b0-33bb-47d7-bf1f-d66dfcabd27e" valueTypeId="4d1293a0-df86-4807-81e3-837364e85287"/>
+    <listType typeId="30d63cc9-44b1-428c-a090-786015ccdbcd" valueTypeId="4a111623-334a-49c8-a9d6-ce687d8ed4c3"/>
+    <managerType typeId="cbcd572d-8ea8-435b-83a5-cec84f185da3" valueTypeId="e2cfdfe2-b156-4738-ba45-fc672dddf694"/>
+  </producedTypes>
+  <name>ВидыВзаимодействий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды взаимодействий</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="74e75800-ba5e-46eb-875d-1dd30e195f8c">
+    <name>СтатусМитинг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статус митинг</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1952e85f-7b7d-45c5-bc18-457e553e5271">
+    <name>Ретроспектива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ретроспектива</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

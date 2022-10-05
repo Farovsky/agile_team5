@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d1f432f0-bd2e-4174-b446-da46cd9419c8">
+  <producedTypes>
+    <objectType typeId="7fe743ee-ded6-4607-836b-9388f9d7707d" valueTypeId="01aacafc-0562-42d9-bef4-18f7fcd416c9"/>
+    <managerType typeId="edcc7648-d0f3-4f01-89f0-4eb68707dedb" valueTypeId="438ae1ce-eb07-4638-a642-17b1d6674c3e"/>
+  </producedTypes>
+  <name>ирНастройкаЖурналаРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка журнала регистрации (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Настройка журнала регистрации (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Настройка журнала регистрации (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирНастройкаЖурналаРегистрации.Form.Форма</defaultForm>
+  <forms uuid="dca2782a-e635-4cb8-ae5e-d74b39c24c83">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f20d499a-f648-4afe-a24d-96a8b9e7ccf2">
+    <name>ФормаНастройкиДоступа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки доступа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настройки доступа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма настройки доступа</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="bd4c062e-5b41-401c-a1f0-d1d98bb3679a">
+    <name>ФормаВыбораПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора полей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора полей</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма выбора полей</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74065c2d-73bf-49c3-a0d4-b018b53051e3">
+    <name>ФормаПроверкиМетаданных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма проверки метаданных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма проверки метаданных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма проверки метаданных</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="c7dce5ce-027f-4073-afc0-40b82935efa3">
+    <name>СобытияЖР</name>
+    <synonym>
+      <key>ru</key>
+      <value>События ЖР</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>События ЖР</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>События ЖР</value>
+    </synonym>
+  </templates>
+  <commands uuid="e71c1ccc-44e3-4d76-b188-9aa4d8a63790">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка журнала регистрации (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройка журнала регистрации (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Настройка журнала регистрации (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

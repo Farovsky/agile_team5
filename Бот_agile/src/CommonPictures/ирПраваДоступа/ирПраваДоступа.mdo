@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ce6a6aa-80eb-4a9e-8b59-f98fd5c6bd40">
+  <name>ирПраваДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Права доступа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Права доступа</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Права доступа</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d189958f-86a4-42c5-a806-39330fa633f2">
+  <producedTypes>
+    <objectType typeId="26bedbf7-c10f-4058-b4c2-2b937c55298c" valueTypeId="fbf356c3-1fcf-4385-8bd1-41e391b46cc3"/>
+    <refType typeId="de36fe21-fd3f-4bad-a20c-a4e957b059e7" valueTypeId="97b03e69-bcbe-4ee3-8a7d-108c17bb8ba3"/>
+    <selectionType typeId="d719d85d-30d0-4430-ba4a-14f02ce5eb5a" valueTypeId="8385ac4f-cfef-4130-ab37-e5b78f38f1fc"/>
+    <listType typeId="5d3ab1cb-1494-4932-8937-4d69e9e879c4" valueTypeId="1725a82b-6dad-4452-91b5-fa62b4694c3b"/>
+    <managerType typeId="a11c769a-6595-470f-8390-3a95227a7e6a" valueTypeId="0b1cc5ef-1273-4237-b428-5ae2a837fe6e"/>
+  </producedTypes>
+  <name>ВзаимодействияСБотом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Взаимодействия с ботом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.ВзаимодействияСБотом.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="fdbe78a9-c4f4-42e3-bee0-4cf7da0bcfa2">
+    <name>Пользователь</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="25812bc3-88af-48de-afd1-2990b01f9422">
+    <name>ВидВзаимодействия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид взаимодействия</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидыВзаимодействий</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a51d5ca2-af99-4edf-b401-68454a260372">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Document>

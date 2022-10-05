@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="174f2dd0-b162-48c0-83af-5be2f24c3976">
+  <producedTypes>
+    <objectType typeId="ea311431-09f1-4acc-8ba9-355d386d0229" valueTypeId="9dd2848a-13aa-4d9f-9978-a82e2d0a678b"/>
+    <managerType typeId="fd5e4f37-b8a3-4ebc-8b8a-581909b0a7af" valueTypeId="0d4c9abc-5f51-4163-80b1-377c6907113e"/>
+  </producedTypes>
+  <name>ирКонсольЗаданий</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль заданий (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Консоль заданий (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Консоль заданий (ИР)</value>
+  </synonym>
+  <comment> </comment>
+  <defaultForm>DataProcessor.ирКонсольЗаданий.Form.ФормаКонсоли</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="9da83caa-8030-4733-8f15-18e63bbdc38a">
+    <name>АвтообновлениеСпискаМетодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автообновление списка методов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автообновление списка методов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автообновление списка методов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="955e3d1f-26a9-466b-b7e7-ba2680d7f7a8">
+    <name>АвтообновлениеСпискаРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автообновление списка регламентных заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автообновление списка регламентных заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автообновление списка регламентных заданий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f3ae9bfc-cf5c-48d9-8713-d962980494ce">
+    <name>АвтообновлениеСпискаФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автообновление списка фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автообновление списка фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автообновление списка фоновых заданий</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e31c1561-d792-4489-ae11-fb5cf23ca81f">
+    <name>ОтборРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор регламентных заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отбор регламентных заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Отбор регламентных заданий</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="dab534db-c9a0-4c3f-ad6a-ebb6c109949a">
+    <name>ОтборФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отбор фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Отбор фоновых заданий</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0ac10b8e-c60e-4fbb-b60e-60b45236e948">
+    <name>ПериодАвтообновленияСпискаМетодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период автообновления списка методов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Период автообновления списка методов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Период автообновления списка методов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="246ed834-74f0-400b-94f3-4c9129abbaea">
+    <name>ПериодАвтообновленияСпискаРегламентныхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период автообновления списка регламентных заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Период автообновления списка регламентных заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Период автообновления списка регламентных заданий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f34ebfb0-b651-4d69-aba9-8f05fc1d933b">
+    <name>ПериодАвтообновленияСпискаФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Период автообновления списка фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Период автообновления списка фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Период автообновления списка фоновых заданий</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d2718302-0472-44ee-ad38-9875476c6de8">
+    <name>ПолучатьОшибкиИзЖурнала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получать ошибки из журнала</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Получать ошибки из журнала</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Получать ошибки из журнала</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="67f0a9fe-2acb-445b-938d-0e0a0f40a492">
+    <name>ПолучатьСообщенияПользователю</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получать сообщения пользователю</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Получать сообщения пользователю</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Получать сообщения пользователю</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="9cd09758-7766-445c-a971-b2f2dec424a9">
+    <name>ДиалогНастройкиОбновленияСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог настройки обновления списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Диалог настройки обновления списка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Диалог настройки обновления списка</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c50943cb-f813-4000-9df2-860efaca2a19">
+    <name>ДиалогОтбораРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора регламентного задания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Диалог отбора регламентного задания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Диалог отбора регламентного задания</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b27bf7e4-2730-4c2e-bf75-4584ac5f11eb">
+    <name>ДиалогОтбораФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог отбора фонового задания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Диалог отбора фонового задания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Диалог отбора фонового задания</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="559187fb-5e4d-42c9-ae06-a6b8afb52e45">
+    <name>ДиалогРегламентногоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог регламентного задания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Диалог регламентного задания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Диалог регламентного задания</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51d8d1da-e3e3-4db3-ad27-043a0e06372e">
+    <name>ДиалогФоновогоЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Диалог фонового задания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Диалог фонового задания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Диалог фонового задания</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="de90b661-2f20-4536-86a6-17d8818286f5">
+    <name>ФормаКонсоли</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма консоли</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма консоли</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма консоли</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7ffe0f12-9f7d-4c6c-bafe-a243acbabbdb">
+    <name>ИнтервалыРаботыФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервалы работы фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Интервалы работы фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Интервалы работы фоновых заданий</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="f8f0ca91-77b2-4f46-a17d-db74f2251f90">
+    <name>ИнтервалыРаботыФоновыхЗаданий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Интервалы работы фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Интервалы работы фоновых заданий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Интервалы работы фоновых заданий</value>
+    </synonym>
+  </templates>
+  <commands uuid="07a810b6-3cd1-4054-80d6-3549f267f857">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль заданий (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Консоль заданий (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Консоль заданий (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b8ca1d82-d6a2-4de6-9707-ee0504609327">
+  <name>ирСравнениеОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир сравнение объектов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир сравнение объектов</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир сравнение объектов</value>
+  </synonym>
+</mdclass:CommonPicture>

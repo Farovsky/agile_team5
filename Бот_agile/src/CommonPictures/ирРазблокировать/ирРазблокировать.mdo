@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0d7e24c7-452c-474a-866e-6fa47241e2b0">
+  <name>ирРазблокировать</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разблокировать</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Разблокировать</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Разблокировать</value>
+  </synonym>
+</mdclass:CommonPicture>

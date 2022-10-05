@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f21aca4-89b4-4f37-82cb-6e9370aa5481">
+  <name>ирСуммаРежим</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сумма в подвале (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сумма в подвале (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Сумма в подвале (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

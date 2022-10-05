@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abb74664-e307-45d7-99a6-ec21399add3b">
+  <producedTypes>
+    <objectType typeId="0adab7ef-1f57-4eeb-b868-b1727ff3dfd4" valueTypeId="79192443-f6d1-4b74-9c89-5ac53c69f050"/>
+    <managerType typeId="193f770d-c460-441e-8a5c-a982b7a873c3" valueTypeId="233b115a-74cc-4e10-a546-562edcc2feb9"/>
+  </producedTypes>
+  <name>ирУстановщикРасширения</name>
+  <synonym>
+    <key>ru</key>
+    <value>Установщик расширения &quot;Инструменты разработчика&quot;</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Установщик расширения &quot;Инструменты разработчика&quot;</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Установщик расширения &quot;Инструменты разработчика&quot;</value>
+  </synonym>
+  <comment>5.99</comment>
+  <defaultForm>DataProcessor.ирУстановщикРасширения.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.ирУстановщикРасширения.Form.ФормаОбычная</auxiliaryForm>
+  <explanation>
+    <key>ru</key>
+    <value>Внешняя обработка, позволяющая установить/удалить расширение &quot;Инструменты разработчика&quot;</value>
+  </explanation>
+  <explanation>
+    <key>en</key>
+    <value>Внешняя обработка, позволяющая установить/удалить расширение &quot;Инструменты разработчика&quot;</value>
+  </explanation>
+  <explanation>
+    <key>uk</key>
+    <value>Внешняя обработка, позволяющая установить/удалить расширение &quot;Инструменты разработчика&quot;</value>
+  </explanation>
+  <forms uuid="293bca98-610f-451e-aadc-fc2a1dd5be7f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b7296755-196b-46c1-94a4-6c4c8247a0ca">
+    <name>ФормаОбычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма обычная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма обычная</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

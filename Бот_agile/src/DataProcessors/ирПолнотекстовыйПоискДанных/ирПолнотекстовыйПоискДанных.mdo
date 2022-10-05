@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71434516-cbd3-4a18-bc14-97ac3d11a899">
+  <producedTypes>
+    <objectType typeId="9d94c02c-c612-4713-b891-1cc7d4a182d8" valueTypeId="30a648ab-ad48-42af-932f-bc11000d8413"/>
+    <managerType typeId="6fae9c06-69b6-4a93-881c-d664f63521be" valueTypeId="df050a35-a569-4827-a824-fc6d2f31413d"/>
+  </producedTypes>
+  <name>ирПолнотекстовыйПоискДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Полнотекстовый поиск данных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Полнотекстовый поиск данных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Полнотекстовый поиск данных (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирПолнотекстовыйПоискДанных.Form.Форма</defaultForm>
+  <tabularSections uuid="273da974-842f-46e4-8015-83b2cab1edd4">
+    <producedTypes>
+      <objectType typeId="7cbb7e47-6f05-4e5b-9a25-d16892475c00" valueTypeId="a4885ec2-e433-46f8-b765-5c217b93fd98"/>
+      <rowType typeId="4457f1c6-a964-40e8-865f-2707c367c2f2" valueTypeId="07133267-0dc1-41d4-8408-db4f16d71ab9"/>
+    </producedTypes>
+    <name>ТаблицаПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица порции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Таблица порции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Таблица порции</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="1d0e1da2-9a13-4123-978c-9df53c2f1df1">
+      <name>Объект</name>
+      <synonym>
+        <key>ru</key>
+        <value>Объект</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Объект</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Объект</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f703a035-278d-4bc7-94fa-b9fe8da1a17a">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="92c35309-cd7f-452d-be2a-9b5a1ca85950">
+      <name>Поле</name>
+      <synonym>
+        <key>ru</key>
+        <value>Поле</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Поле</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Поле</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9011d513-70fb-4d23-8be1-4f28e2b1ea79">
+      <name>Метаданные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданные</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Метаданные</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Метаданные</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="ae4c638a-30ed-42a3-907e-99d49b4061d5">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="32d2290d-cc8a-487c-acc1-89e8c8442852">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полнотекстовый поиск данных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Полнотекстовый поиск данных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Полнотекстовый поиск данных (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <picture xsi:type="core:PictureRef">
+      <picture>CommonPicture.ирПолнотекстовыйПоискДанных</picture>
+    </picture>
+  </commands>
+</mdclass:DataProcessor>

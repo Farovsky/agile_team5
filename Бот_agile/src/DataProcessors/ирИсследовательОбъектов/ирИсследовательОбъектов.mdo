@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bcbb8509-4b44-47dc-9430-5b538d5630f0">
+  <producedTypes>
+    <objectType typeId="7cfefb77-8ae5-4cda-ba1e-fc991a429bcf" valueTypeId="73cda476-f8d2-4a62-b743-4dd7803a7cd1"/>
+    <managerType typeId="2039590c-3cb2-4b56-934f-dd1013becdb4" valueTypeId="b026f8e6-8994-4d25-a00f-260dfe52e2b2"/>
+  </producedTypes>
+  <name>ирИсследовательОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Исследователь объектов (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Исследователь объектов (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Исследователь объектов (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирИсследовательОбъектов.Form.ИсследовательОбъектов</defaultForm>
+  <forms uuid="1f6ee688-932d-417b-855a-0d29ef601739">
+    <name>ИсследовательКоллекций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исследователь коллекций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Исследователь коллекций</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Исследователь коллекций</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f80ad19e-c5db-4ccd-939c-302a473c9dfc">
+    <name>ИсследовательОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исследователь объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Исследователь объектов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Исследователь объектов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3e9774b1-5245-4863-a3ba-30c3f65f613b">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исследователь объектов (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Исследователь объектов (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Исследователь объектов (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

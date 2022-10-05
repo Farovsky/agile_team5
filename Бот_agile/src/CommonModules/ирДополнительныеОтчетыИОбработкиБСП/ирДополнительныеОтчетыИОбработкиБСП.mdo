@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0731d130-5346-4d15-b4ba-3c3af210b5af">
+  <name>ирДополнительныеОтчетыИОбработкиБСП</name>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные отчеты и обработки (расширение БСП)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Дополнительные отчеты и обработки (расширение БСП)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Дополнительные отчеты и обработки (расширение БСП)</value>
+  </synonym>
+  <comment>При адаптации расширения превращается в расширение одноименного модуля БСП. В остальных случаях не используется.</comment>
+</mdclass:CommonModule>

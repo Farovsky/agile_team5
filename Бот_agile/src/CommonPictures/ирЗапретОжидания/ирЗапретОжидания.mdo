@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e75ea59-005f-490c-a81b-da5864db097e">
+  <name>ирЗапретОжидания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир запрет ожидания</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир запрет ожидания</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир запрет ожидания</value>
+  </synonym>
+</mdclass:CommonPicture>

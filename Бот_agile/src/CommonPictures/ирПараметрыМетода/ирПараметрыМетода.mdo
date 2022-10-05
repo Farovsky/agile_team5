@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbdba2aa-89d3-4079-9519-c8c8d7612557">
+  <name>ирПараметрыМетода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры метода</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Параметры метода</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Параметры метода</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+    <y>1</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

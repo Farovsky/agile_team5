@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fbc2516a-877d-4ed7-b3a6-1190122c0d59">
+  <name>ирЗаменитьТаблицу</name>
+  <synonym>
+    <key>ru</key>
+    <value>Заменить таблицу (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Заменить таблицу (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Заменить таблицу (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="106d1b4a-56e9-452b-8373-0446cebd1eef">
+  <producedTypes>
+    <objectType typeId="8679f86d-e0d2-435c-9167-b5e741900ca3" valueTypeId="bac00387-588c-4818-b3da-9e10c432a86e"/>
+    <managerType typeId="33831587-d65b-421f-b35f-c850b118f9bb" valueTypeId="1c95af54-eb54-42c6-80b8-4edaeace0378"/>
+  </producedTypes>
+  <name>ирАнализМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ метаданных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Анализ метаданных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Анализ метаданных (ИР)</value>
+  </synonym>
+  <defaultForm>Report.ирАнализМетаданных.Form.ФормаОтчета</defaultForm>
+  <attributes uuid="9b395b30-bddd-4818-bff7-ca5647b41dfc">
+    <name>ТипОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тип объектов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип объектов</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4392e900-c040-4df8-867a-875e3358fced">
+    <name>РасширенныеПредставления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенные представления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Расширенные представления</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Расширенные представления</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="7ce7230f-c421-4e00-a6c7-6aa635b1e774">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="853e4145-a464-4490-be0d-ee2844ff6873">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ метаданных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Анализ метаданных (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Анализ метаданных (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

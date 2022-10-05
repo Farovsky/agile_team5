@@ -1,0 +1,1135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9b2420ac-5739-41a4-a529-fc48595250b3">
+  <producedTypes>
+    <objectType typeId="9c0cd58d-cee9-440e-82ef-23f816f7183e" valueTypeId="eadb62da-ba26-4ece-82a7-7d2f19a903d8"/>
+    <managerType typeId="7ab10279-3391-4053-8826-54a83e0a1bc8" valueTypeId="43a30b06-5b5b-4814-9371-3b4aa68eef79"/>
+  </producedTypes>
+  <name>ирПоискДублейИЗаменаСсылок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поиск дублей и замена ссылок (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Поиск дублей и замена ссылок (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Поиск дублей и замена ссылок (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирПоискДублейИЗаменаСсылок.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="ef782aa4-c7a3-4429-923e-d874b2a579ae">
+    <name>АвтовидимостьКолонокСоставаГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автовидимость колонок состава группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автовидимость колонок состава группы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автовидимость колонок состава группы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b4be61c2-044a-497f-8c75-28e44b15e441">
+    <name>АвтоматическийВыборПриЗамещенииВРегистреСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автоматический выбор при замещении в регистре сведений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автоматический выбор при замещении в регистре сведений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автоматический выбор при замещении в регистре сведений</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Пользователю не будет показываться форма настройки замещения в независимых регистрах сведений при склеивании записей по новым ключам. Это может привести к нежелательным изменениям данных.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Пользователю не будет показываться форма настройки замещения в независимых регистрах сведений при склеивании записей по новым ключам. Это может привести к нежелательным изменениям данных.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Пользователю не будет показываться форма настройки замещения в независимых регистрах сведений при склеивании записей по новым ключам. Это может привести к нежелательным изменениям данных.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="96ddfa32-0db3-4932-8315-b06f97cd4b98">
+    <name>ВыполнятьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнять замену ссылок на сервере (через фоновое задание)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выполнять замену ссылок на сервере (через фоновое задание)</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выполнять замену ссылок на сервере (через фоновое задание)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a7d40b33-40b6-4173-aae3-607c3b7e790c">
+    <name>ДопустимоеРазличиеСлов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Допустимое различие слов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Допустимое различие слов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Допустимое различие слов</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="6d1f994e-e45a-4e47-8e08-0375bb0572df">
+    <name>ИзменятьПоляПоСвязямПараметровВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменять поля по связям параметров выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменять поля по связям параметров выбора</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменять поля по связям параметров выбора</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При выполнении замены изменять связанные поля. Влияющие поля будут автоматически изменяться. Зависимые поля будут собираться в таблицу &quot;Правила зависимых&quot;, где пользователь укажет им новые значения. Изменение группы связанных полей выполняется только целиком.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>При выполнении замены изменять связанные поля. Влияющие поля будут автоматически изменяться. Зависимые поля будут собираться в таблицу &quot;Правила зависимых&quot;, где пользователь укажет им новые значения. Изменение группы связанных полей выполняется только целиком.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>При выполнении замены изменять связанные поля. Влияющие поля будут автоматически изменяться. Зависимые поля будут собираться в таблицу &quot;Правила зависимых&quot;, где пользователь укажет им новые значения. Изменение группы связанных полей выполняется только целиком.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cbddaa48-f675-4e9d-8042-9a1bb0b87212">
+    <name>КоличествоОбъектовВПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество объектов в порции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество объектов в порции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Количество объектов в порции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество объектов в порции для обработки на сервере в многопоточном режиме. Каждая порция обрабатывается в отдельном задании. Рекомендуется такое количество, чтобы оно обрабатывалось 1-5 секунд. При прерывании обработки - задания не прерываются.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Количество объектов в порции для обработки на сервере в многопоточном режиме. Каждая порция обрабатывается в отдельном задании. Рекомендуется такое количество, чтобы оно обрабатывалось 1-5 секунд. При прерывании обработки - задания не прерываются.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Количество объектов в порции для обработки на сервере в многопоточном режиме. Каждая порция обрабатывается в отдельном задании. Рекомендуется такое количество, чтобы оно обрабатывалось 1-5 секунд. При прерывании обработки - задания не прерываются.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>200</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="640fda74-f9bf-4881-af4b-c79a82f6833a">
+    <name>КоличествоПотоков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество одновременных потоков для обработки на сервере. Позволяет ускорить обработку за счет увеличения нагрузки на сервер.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Количество одновременных потоков для обработки на сервере. Позволяет ускорить обработку за счет увеличения нагрузки на сервер.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Количество одновременных потоков для обработки на сервере. Позволяет ускорить обработку за счет увеличения нагрузки на сервер.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>16</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="6b0438ad-0135-44ed-875a-ef1b2b89c510">
+    <name>КомментироватьЗаменуСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментировать замену ссылок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Комментировать замену ссылок</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Комментировать замену ссылок</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="27aa3062-ae8c-4b19-bbb5-58028bef8fa4">
+    <name>КомпоновкаСсылающихсяОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновка ссылающихся объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Компоновка ссылающихся объектов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Компоновка ссылающихся объектов</value>
+    </synonym>
+    <type/>
+    <toolTip>
+      <key>ru</key>
+      <value>Используется для сохранения и восстановления</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Используется для сохранения и восстановления</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Используется для сохранения и восстановления</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d3faab83-b24c-46cc-9979-ee8d74246ed0">
+    <name>НайденныеГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найденные группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Найденные группы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Найденные группы</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b0db151e-05d2-41ad-abd5-5b0d07685bff">
+    <name>НастройкиПоискаДублей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки поиска дублей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройки поиска дублей</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Настройки поиска дублей</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="634d2e04-d4b9-40db-9f9d-21410c5033b5">
+    <name>ОбработкаЗаменыДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработка замены данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обработка замены данных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Обработка замены данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f9f683f0-fb12-4cee-b4f0-9327a4303cbe">
+    <name>ОбщаяТранзакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая транзакция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Общая транзакция</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Общая транзакция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнять обработку всех ссылающихся данных в одной транзакции. Любая ошибка при записи объекта сделает невозможной фиксацию транзакции. Рекомендуется использовать в монопольном режиме. Не используется в многопоточном режиме.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выполнять обработку всех ссылающихся данных в одной транзакции. Любая ошибка при записи объекта сделает невозможной фиксацию транзакции. Рекомендуется использовать в монопольном режиме. Не используется в многопоточном режиме.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выполнять обработку всех ссылающихся данных в одной транзакции. Любая ошибка при записи объекта сделает невозможной фиксацию транзакции. Рекомендуется использовать в монопольном режиме. Не используется в многопоточном режиме.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cbc92ee5-6c18-4c75-aaba-01a4e177986e">
+    <name>ОпределятьСвязьПоВладельцуПоДанным</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определять связь по владельцу по данным</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Определять связь по владельцу по данным</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Определять связь по владельцу по данным</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Считать поля связанными по владельцу, если значение одного из них содержится в реквизите Владелец значения другого. Медленнее и опаснее. Полезно для старых конфигураций, где в метаданных связи параметров выбора не указаны.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Считать поля связанными по владельцу, если значение одного из них содержится в реквизите Владелец значения другого. Медленнее и опаснее. Полезно для старых конфигураций, где в метаданных связи параметров выбора не указаны.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Считать поля связанными по владельцу, если значение одного из них содержится в реквизите Владелец значения другого. Медленнее и опаснее. Полезно для старых конфигураций, где в метаданных связи параметров выбора не указаны.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a4e2e1d-8bcf-4b45-b02f-0f3b9a95270e">
+    <name>ПерезаписыватьПравильныеПослеЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перезаписывать правильные после замены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Перезаписывать правильные после замены</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Перезаписывать правильные после замены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полезно для регистрации изменений</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Полезно для регистрации изменений</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Полезно для регистрации изменений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="a21dd44a-db4b-4e56-9159-b9cc15e7077f">
+    <name>ПолноеИмяОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное имя объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Полное имя объекта</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Полное имя объекта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="913eeaf3-6174-460a-b54c-7add6453db2d">
+    <name>РазрешитьУдалениеСНарушениемСсылочнойЦелостности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешить удаление с нарушением ссылочной целостности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Разрешить удаление с нарушением ссылочной целостности</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Разрешить удаление с нарушением ссылочной целостности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если на объект есть ссылки, то его можно будет удалить, если включить эту опцию.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Если на объект есть ссылки, то его можно будет удалить, если включить эту опцию.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Если на объект есть ссылки, то его можно будет удалить, если включить эту опцию.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="491bad63-e2f1-44b2-b004-943b5b7cfb36">
+    <name>РежимПроизвольногоЗапроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим произвольного запроса</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Режим произвольного запроса</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Режим произвольного запроса</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b828bc78-0e2c-44e1-9042-3659698d39f8">
+    <name>СнятьПометкиУдаленияПравильныхПослеЗамены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Снять пометки удаления правильных после замены</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Снять пометки удаления правильных после замены</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Снять пометки удаления правильных после замены</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Полезно для регистрации изменений</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Полезно для регистрации изменений</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Полезно для регистрации изменений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2dd158fe-1ae4-45d4-b14a-6e35a21f496d">
+    <name>УчитыватьПравыеПробелыСтрок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учитывать правые пробелы строк</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Учитывать правые пробелы строк</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Учитывать правые пробелы строк</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="cf0440d8-c372-4177-af5e-642d6e14d913">
+    <producedTypes>
+      <objectType typeId="dee87f21-252b-415b-8ae4-9d912fb8b62f" valueTypeId="04700b0f-9b89-4b31-bc53-09df561f6be1"/>
+      <rowType typeId="af00369a-26c4-466b-8e79-c09af6b88dd1" valueTypeId="288c7c30-3115-4ae1-9173-272aa3fd32b4"/>
+    </producedTypes>
+    <name>ИзмененныеПроведенныеДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Измененные проведенные документы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Измененные проведенные документы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Измененные проведенные документы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="34832e19-673c-4e02-bb43-2cfd16ee0f4b">
+      <name>ТипДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип документа</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип документа</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип документа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="65e66af5-2236-476e-9310-f05ab36b5294">
+      <name>ДатаДокумента</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата документа</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Дата документа</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Дата документа</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers>
+          <dateFractions>Date</dateFractions>
+        </dateQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7a62d394-dbc1-4832-af67-812b6e91d49b">
+      <name>Документ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Документ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Документ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Документ</value>
+      </synonym>
+      <type>
+        <types>DocumentRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="c695f87b-cba9-4a42-bfaf-d2c832332644">
+    <producedTypes>
+      <objectType typeId="50f88069-2c71-4c53-97c4-67f88f5bccfb" valueTypeId="a8681c0f-60f3-4708-a458-641369966fd3"/>
+      <rowType typeId="1a82a314-3e60-4781-a255-f21754dcf4c8" valueTypeId="0b145546-7f14-4c81-b66c-7c23147dccdb"/>
+    </producedTypes>
+    <name>НайденныеСсылки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Найденные ссылки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Найденные ссылки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Найденные ссылки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="86be0d45-0735-493b-8f9b-d6255d830992">
+      <name>Данные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Данные</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Данные</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Данные</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <types>AnyRef</types>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ffcf7506-9b78-4af7-a434-a0b1fe56aea7">
+      <name>Дата</name>
+      <synonym>
+        <key>ru</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Дата</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Дата</value>
+      </synonym>
+      <type>
+        <types>Date</types>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a01dd610-f93c-4449-ac44-1b4b07f9410b">
+      <name>ИндексКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Индекс картинки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>2</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ddefec27-df89-4b21-a4e3-d65db3034f06">
+      <name>Метаданные</name>
+      <synonym>
+        <key>ru</key>
+        <value>Метаданные</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Метаданные</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Метаданные</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="325e92ea-5c61-4132-a961-46e105a46843">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f4cd281b-4551-46f6-b318-d843b77d6964">
+      <name>Реквизит1</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит1</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит1</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Реквизит1</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0db69760-f162-49f6-85ce-82fab92c4e90">
+      <name>Реквизит2</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит2</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит2</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Реквизит2</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="639e52c6-ae02-4bd5-b214-67b42afd9960">
+      <name>Реквизит3</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит3</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит3</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Реквизит3</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0bdd5c9c-cfa7-4606-b5ec-a461e99a0e4e">
+      <name>Реквизит4</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит4</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит4</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Реквизит4</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0316c6ec-27dd-4cf1-b5ac-4e5c05eb3df4">
+      <name>Реквизит5</name>
+      <synonym>
+        <key>ru</key>
+        <value>Реквизит5</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Реквизит5</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Реквизит5</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>15</precision>
+          <scale>2</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a5e8783b-7b24-406e-ac57-859478c2bcfe">
+      <name>Ссылка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ссылка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Ссылка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ссылка</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5e302399-7948-4afc-9ff8-6ee2c3a433fe">
+      <name>ТипДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип данных</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип данных</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="48819fe4-98e9-4427-ab67-49d5a43a1003">
+      <name>ТипМетаданных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип метаданных</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип метаданных</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип метаданных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="7b1b729f-9bf0-4f05-89f1-390278c67d37">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c531c1e3-ef85-4d1e-8394-06cd6cb764a1">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма настройки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="07e43f04-ff54-4f78-8260-b26cddafc6ef">
+    <name>ФормаПерепроведенияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма перепроведения документов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма перепроведения документов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма перепроведения документов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2fdcf3cc-8317-413f-8e67-330eb6464584">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск дублей и замена ссылок (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Поиск дублей и замена ссылок (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Поиск дублей и замена ссылок (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

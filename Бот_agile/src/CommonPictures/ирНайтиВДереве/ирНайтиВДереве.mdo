@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="860924ec-b832-4197-86ae-2150d4ec5a10">
+  <name>ирНайтиВДереве</name>
+  <synonym>
+    <key>ru</key>
+    <value>Найти в дереве (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Найти в дереве (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Найти в дереве (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

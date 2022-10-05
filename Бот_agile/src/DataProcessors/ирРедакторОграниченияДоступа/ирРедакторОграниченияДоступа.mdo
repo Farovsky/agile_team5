@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d08a97d8-8c4a-4db5-b008-009f0969ca31">
+  <producedTypes>
+    <objectType typeId="c462ed19-8244-4fa3-b1f6-8796d800eb36" valueTypeId="757b74c0-8830-4826-b7ae-8309d6f1df58"/>
+    <managerType typeId="4b647e29-ee5e-453e-94b4-6f50e250762b" valueTypeId="bf61b95d-7c76-4e9e-a766-e61678201469"/>
+  </producedTypes>
+  <name>ирРедакторОграниченияДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор ограничения доступа (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Редактор ограничения доступа (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Редактор ограничения доступа (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирРедакторОграниченияДоступа.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <forms uuid="888c73c4-0df9-4043-b08b-9b97f126987f">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="664cc47c-6467-459d-b150-b7546e312b8d">
+    <name>КэшРолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кэш ролей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Кэш ролей</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Кэш ролей</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="f19de56e-e12c-4c1b-9ec3-710e190d1813">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор ограничения доступа (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактор ограничения доступа (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редактор ограничения доступа (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

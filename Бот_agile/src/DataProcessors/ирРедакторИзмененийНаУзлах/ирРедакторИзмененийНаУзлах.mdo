@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9dba296c-8c7c-46d9-b3be-01902c3038fa">
+  <producedTypes>
+    <objectType typeId="7755573d-3cff-4cc4-b7a4-d60784376c78" valueTypeId="1e7eb1d5-a0c2-4b7a-b6b7-a8f11990f732"/>
+    <managerType typeId="281a5d62-325b-4b14-93f2-2b0d4d71167c" valueTypeId="e3bba024-12e1-453f-94c4-3d221600559e"/>
+  </producedTypes>
+  <name>ирРедакторИзмененийНаУзлах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор изменений на узлах (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Редактор изменений на узлах (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Редактор изменений на узлах (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирРедакторИзмененийНаУзлах.Form.Форма</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="fdbb284d-3b67-453f-822b-b24c1daebb24">
+    <name>ИмяПланОбмена</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя план обмена</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Имя план обмена</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Имя план обмена</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="13369444-8a36-4115-aca2-d64953d3f7b5">
+    <name>ВыборУзловПриемниковДляКопирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор узлов приемников для копирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выбор узлов приемников для копирования</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выбор узлов приемников для копирования</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b02e55f-7fef-4802-a692-16aef9baf0fb">
+    <name>ИзменениеНомеровСообщений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменение номеров сообщений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменение номеров сообщений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменение номеров сообщений</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="e1fa5b21-01b1-4840-89c7-d5b2d1b694d2">
+    <name>УправлениеГлавнымУзлом</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление главным узлом</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Управление главным узлом</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Управление главным узлом</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9501a8f1-f9a9-4606-a26d-ca47f9d5b7e7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="247c41c1-9443-4ddd-93f7-c36aba60cc8f">
+    <name>ФормаВыбораОбновленияРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора обновления регистрации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма выбора обновления регистрации</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма выбора обновления регистрации</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="3b074b49-2ab3-4c49-bbc1-91e366158e58">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор изменений на узлах (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактор изменений на узлах (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редактор изменений на узлах (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

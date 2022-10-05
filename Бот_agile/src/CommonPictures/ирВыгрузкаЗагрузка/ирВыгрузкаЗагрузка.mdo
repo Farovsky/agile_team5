@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5cfefa6-bd42-44a6-b9f9-89fe8ba4c554">
+  <name>ирВыгрузкаЗагрузка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выгрузка загрузка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Выгрузка загрузка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Выгрузка загрузка (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

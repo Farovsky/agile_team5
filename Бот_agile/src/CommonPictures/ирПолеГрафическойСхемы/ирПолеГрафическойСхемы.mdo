@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfaecb7d-6a90-495b-b118-ddc76d3ec810">
+  <name>ирПолеГрафическойСхемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поле графической схемы</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Поле графической схемы</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Поле графической схемы</value>
+  </synonym>
+</mdclass:CommonPicture>

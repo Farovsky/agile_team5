@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f09b6757-c0b6-46f2-a1da-0de7f263c79d">
+  <name>ирФункциональнаяОпция</name>
+  <synonym>
+    <key>ru</key>
+    <value>Функциональная опция</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Функциональная опция</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Функциональная опция</value>
+  </synonym>
+</mdclass:CommonPicture>

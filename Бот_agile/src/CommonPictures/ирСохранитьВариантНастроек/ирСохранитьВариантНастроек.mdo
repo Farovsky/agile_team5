@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="32f8c5f7-9918-43f0-92b9-2c44be3d78cb">
+  <name>ирСохранитьВариантНастроек</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить вариант настроек</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сохранить вариант настроек</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Сохранить вариант настроек</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>8</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

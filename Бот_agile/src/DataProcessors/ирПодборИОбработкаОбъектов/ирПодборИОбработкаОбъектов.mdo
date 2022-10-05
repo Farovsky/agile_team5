@@ -1,0 +1,1458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cb1557e3-9c5d-4e52-9db4-0197f6b01d37">
+  <producedTypes>
+    <objectType typeId="4c7e2dcb-df8c-4ca2-aed8-91d5a1e379a5" valueTypeId="fbb53c1e-a7ee-4eae-bb21-fccf1d9bf82a"/>
+    <managerType typeId="fd1d4b47-1ed4-4195-80b8-ed3d83f5bfdf" valueTypeId="17d276b5-0a1f-4f38-a026-f469b9eb1dcd"/>
+  </producedTypes>
+  <name>ирПодборИОбработкаОбъектов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подбор и обработка объектов БД (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Подбор и обработка объектов БД (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Подбор и обработка объектов БД (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирПодборИОбработкаОбъектов.Form.ПодборИОбработка</defaultForm>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="606e353d-6bb9-4084-9c2c-f98e8e0f4d5b">
+    <name>АвтовВыбранныеПоляИзОтбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Авто выбранные поля</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Авто выбранные поля</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Авто выбранные поля</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1724adf6-d4be-415c-ac8b-48db127f6888">
+    <name>АвтозаполнениеПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автозаполнение порядка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Автозаполнение порядка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Автозаполнение порядка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60766963-ab73-423c-a709-3a1644b95e12">
+    <name>БезАвтоупорядочивания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без автоупорядочивания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Без автоупорядочивания</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Без автоупорядочивания</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="de98e471-de82-4944-ad5e-07fe83d4c4da">
+    <name>ВыбратьВсеПоля</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбрать все поля</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выбрать все поля</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выбрать все поля</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aae139ae-976d-43af-8b41-6c95985400cc">
+    <name>ВыводитьСообщения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить сообщения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выводить сообщения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выводить сообщения</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выводить информационные сообщения</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выводить информационные сообщения</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выводить информационные сообщения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="19402586-ec5e-4c29-9dae-574f509ecee3">
+    <name>ВыполнятьНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выполнять на сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнять обработку объектов на сервере (через фоновое задание)</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выполнять обработку объектов на сервере (через фоновое задание)</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выполнять обработку объектов на сервере (через фоновое задание)</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="56000b8c-835a-4ef3-a6c8-3e36e563df65">
+    <name>ДинамическаяВыборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Динамическая выборка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Динамическая выборка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Динамическая выборка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Если установлено, то данные для обработки будут извлекаться динамически по настройкам выборки, иначе используются помеченные строки для обработки. Если обход данных выполняется не по ссылочным объектам, то работает очень медленно!</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Если установлено, то данные для обработки будут извлекаться динамически по настройкам выборки, иначе используются помеченные строки для обработки. Если обход данных выполняется не по ссылочным объектам, то работает очень медленно!</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Если установлено, то данные для обработки будут извлекаться динамически по настройкам выборки, иначе используются помеченные строки для обработки. Если обход данных выполняется не по ссылочным объектам, то работает очень медленно!</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b176c21a-9bd6-433a-9879-2068db128254">
+    <name>ИмяСиноним</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя синоним</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Имя синоним</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Имя синоним</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="45eeeff4-a9f7-4291-a2b8-fa40283a6f1c">
+    <name>ИспользоватьОтборПоУзлу</name>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать отбор по узлу</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Использовать отбор по узлу</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Использовать отбор по узлу</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5bb8ec0c-cd50-4a80-bd78-f3648742e43d">
+    <name>КоличествоОбъектовВПорции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество объектов в порции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество объектов в порции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Количество объектов в порции</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>3</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество объектов в порции для обработки на сервере в многопоточном режиме. Каждая порция обрабатывается в отдельном задании. Рекомендуется такое количество, чтобы оно обрабатывалось 1-5 секунд. При прерывании обработки - задания не прерываются.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Количество объектов в порции для обработки на сервере в многопоточном режиме. Каждая порция обрабатывается в отдельном задании. Рекомендуется такое количество, чтобы оно обрабатывалось 1-5 секунд. При прерывании обработки - задания не прерываются.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Количество объектов в порции для обработки на сервере в многопоточном режиме. Каждая порция обрабатывается в отдельном задании. Рекомендуется такое количество, чтобы оно обрабатывалось 1-5 секунд. При прерывании обработки - задания не прерываются.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>200</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="d103a33d-8f8f-4b66-9be5-9cc699492e4f">
+    <name>КоличествоПотоков</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Количество потоков</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Количество одновременных потоков для обработки на сервере. Позволяет ускорить обработку за счет увеличения нагрузки на сервер.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Количество одновременных потоков для обработки на сервере. Позволяет ускорить обработку за счет увеличения нагрузки на сервер.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Количество одновременных потоков для обработки на сервере. Позволяет ускорить обработку за счет увеличения нагрузки на сервер.</value>
+    </toolTip>
+    <minValue xsi:type="core:StringValue">
+      <value>1</value>
+    </minValue>
+    <maxValue xsi:type="core:StringValue">
+      <value>16</value>
+    </maxValue>
+  </attributes>
+  <attributes uuid="6ea2f456-610e-4b5c-bf3d-7ecb5c5e5d12">
+    <name>Компоновщик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Компоновщик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Компоновщик</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Компоновщик</value>
+    </synonym>
+    <type>
+      <types>DataCompositionSettingsComposer</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="32718ab6-1322-41cf-b198-0490fbc2b638">
+    <name>МноготабличнаяВыборка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Многотабличная выборка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Многотабличная выборка</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Многотабличная выборка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Многотабличная выборка</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Многотабличная выборка</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Многотабличная выборка</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fd37fa9e-4b9f-419a-a8a2-dd6103a06ba8">
+    <name>НастройкиКомпоновки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройки компоновки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Настройки компоновки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Настройки компоновки</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="90c84b9a-a66e-4b74-9357-7c1edb8330b5">
+    <name>ОбластьПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Область поиска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Область поиска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Область поиска</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0b527e63-a73b-41b1-81a6-d418393c7ef4">
+    <name>ОбщаяТранзакция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общая транзакция</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Общая транзакция</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Общая транзакция</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выполнять каждую обработку всего набора данных в одной транзакции. Любая ошибка при записи объекта сделает невозможной фиксацию транзакции. Рекомендуется использовать в монопольном режиме. Не используется в многопоточном режиме.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выполнять каждую обработку всего набора данных в одной транзакции. Любая ошибка при записи объекта сделает невозможной фиксацию транзакции. Рекомендуется использовать в монопольном режиме. Не используется в многопоточном режиме.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выполнять каждую обработку всего набора данных в одной транзакции. Любая ошибка при записи объекта сделает невозможной фиксацию транзакции. Рекомендуется использовать в монопольном режиме. Не используется в многопоточном режиме.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="65d09153-6d02-462e-8d80-af023fe327b0">
+    <name>ПервыеNКаждойТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первые n каждой таблицы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Первые n каждой таблицы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Первые n каждой таблицы</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Выбрать первые N строк каждой таблицы</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Выбрать первые N строк каждой таблицы</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Выбрать первые N строк каждой таблицы</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1abc4741-f7f7-4e50-8d1b-e048f1b2972d">
+    <name>ПодключатьСвязанныеТаблицы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключать связанные таблицы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подключать связанные таблицы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Подключать связанные таблицы</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подключать поля связанных таблиц. Количества подчиненных строк (движения документов, табличные части) помещаются в папку &quot;Количество подчиненных строк&quot;. Поля каждого связанного по единственному измерению регистра помещаются в папку с его названием.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Подключать поля связанных таблиц. Количества подчиненных строк (движения документов, табличные части) помещаются в папку &quot;Количество подчиненных строк&quot;. Поля каждого связанного по единственному измерению регистра помещаются в папку с его названием.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Подключать поля связанных таблиц. Количества подчиненных строк (движения документов, табличные части) помещаются в папку &quot;Количество подчиненных строк&quot;. Поля каждого связанного по единственному измерению регистра помещаются в папку с его названием.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4135a108-946a-4639-a39a-d9d5a4c436a7">
+    <name>ПодключатьПоляНесогласованности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подключать поля несогласованности</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подключать поля несогласованности</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Подключать поля несогласованности</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Подключать поля проверки несогласованности данных по связям и параметрам выбора. Они помещаются в папку &quot;Несогласовано&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Подключать поля проверки несогласованности данных по связям и параметрам выбора. Они помещаются в папку &quot;Несогласовано&quot;.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Подключать поля проверки несогласованности данных по связям и параметрам выбора. Они помещаются в папку &quot;Несогласовано&quot;.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="fc1218bc-585b-4bfb-9ade-6e7720197760">
+    <name>ПообъектныеТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пообъектные транзакции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пообъектные транзакции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пообъектные транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Для обработки каждого объекта открывается транзакция и устанавливается управляемая блокировка перед чтением.</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Для обработки каждого объекта открывается транзакция и устанавливается управляемая блокировка перед чтением.</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Для обработки каждого объекта открывается транзакция и устанавливается управляемая блокировка перед чтением.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="cd7b44c5-5e1d-4574-9b1b-0eca363ecd7d">
+    <name>ПроводитьПроведенныеДокументыПриЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проводить проведенные документы при записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проводить проведенные документы при записи</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проводить проведенные документы при записи</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Проводить проведенные документы при автоматической записи</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Проводить проведенные документы при автоматической записи</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Проводить проведенные документы при автоматической записи</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="74248945-2835-4906-b8fb-91960a850c3b">
+    <name>ПропускатьОшибки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пропускать ошибки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пропускать ошибки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пропускать ошибки</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>При возникновении ошибки при обработке объекта переходить к следующему</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>При возникновении ошибки при обработке объекта переходить к следующему</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>При возникновении ошибки при обработке объекта переходить к следующему</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9987f737-e983-4bb0-be14-5041c6a58842">
+    <name>РежимОбходаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим обхода данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Режим обхода данных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Режим обхода данных</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="59bf2096-ff75-4ea5-9e3f-22b9f582f0fd">
+    <name>СтрокиДляОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Строки для обработки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Строки для обработки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Строки для обработки</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="00dcc39b-2212-4c9d-bd51-6c67df44ae5f">
+    <name>УдалятьРегистрациюНаУзлеПослеОбработкиОбъекта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалять регистрацию на узле после обработки объекта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Удалять регистрацию на узле после обработки объекта</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Удалять регистрацию на узле после обработки объекта</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Удалять регистрацию с узла по объекту после его успешной обработки</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>Удалять регистрацию с узла по объекту после его успешной обработки</value>
+    </toolTip>
+    <toolTip>
+      <key>uk</key>
+      <value>Удалять регистрацию с узла по объекту после его успешной обработки</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="b256d537-5ce5-4f1b-8aa2-607a47bf6ca7">
+    <name>УзелОтбораОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Узел отбора объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Узел отбора объектов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Узел отбора объектов</value>
+    </synonym>
+    <type>
+      <types>ExchangePlanRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="e87924f3-506a-4978-93e5-d1ecae0eceb3">
+    <producedTypes>
+      <objectType typeId="b77c225e-20a0-41f1-b7e0-32460cafb3c5" valueTypeId="48b8da28-87d1-41be-bc62-6892529db06d"/>
+      <rowType typeId="d5f74a61-9e9a-458a-a318-e4afaba91fd7" valueTypeId="56acf802-53b2-4ae4-863e-83c91acc5672"/>
+    </producedTypes>
+    <name>ЗначенияРеквизитов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значения реквизитов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Значения реквизитов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Значения реквизитов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="87fa18d2-67ef-4dc9-a35c-0ca01a57ab6b">
+      <name>ДопРеквизит</name>
+      <synonym>
+        <key>ru</key>
+        <value>Доп реквизит</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Доп реквизит</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Доп реквизит</value>
+      </synonym>
+      <type>
+        <types>AnyRef</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Доп. реквизит или сведение для БСП</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Доп. реквизит или сведение для БСП</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Доп. реквизит или сведение для БСП</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ba939135-0415-41e3-b834-1bbaf5896dfa">
+      <name>Значение</name>
+      <synonym>
+        <key>ru</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Значение</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Значение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+        <types>String</types>
+        <types>Date</types>
+        <types>Number</types>
+        <types>AnyRef</types>
+        <numberQualifiers>
+          <precision>20</precision>
+          <scale>6</scale>
+        </numberQualifiers>
+        <stringQualifiers>
+          <length>1024</length>
+        </stringQualifiers>
+        <dateQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="28faf09b-491b-4ee9-b517-f7be76685373">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="a86e6499-ba14-4125-b2fa-82ca0acebfff">
+      <name>ИмяТипаЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя типа значения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя типа значения</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя типа значения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="04ff938d-7bae-46e3-a99d-9d6e75244683">
+      <name>Использование</name>
+      <synonym>
+        <key>ru</key>
+        <value>Использование</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Использование</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Использование</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fe4d15dc-8a2c-4033-9198-7bf5ffc43492">
+      <name>КлючПоиска</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ поиска</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Ключ поиска</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ключ поиска</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e0365f31-3aa6-42eb-92e3-1a41f3cbc1a4">
+      <name>Подсказка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Подсказка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Подсказка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Подсказка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="63afbc0c-617f-46fc-8358-da7749458675">
+      <name>Пометка</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пометка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пометка</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d75c8195-2d51-4928-9840-93f56a4e96e1">
+      <name>СвязиПараметровВыбора</name>
+      <synonym>
+        <key>ru</key>
+        <value>Связи параметров выбора</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Связи параметров выбора</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Связи параметров выбора</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="eefd2ea6-efd6-4c34-babe-f2d7abae0842">
+      <name>Синоним</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синоним</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Синоним</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Синоним</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c1536f67-d718-4ab0-8148-17376d3b8be6">
+      <name>Сопоставлен</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сопоставлен</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сопоставлен</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сопоставлен</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bd3c8225-c007-41cd-9657-112fc0d94475">
+      <name>ТипЗначения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип значения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип значения</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип значения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bcbce941-0335-4e94-84b3-0752acc086c0">
+      <name>ТипИзменения</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип изменения</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип изменения</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип изменения</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="69093bf3-701c-46df-a1eb-ab6ba6492226">
+    <name>ВыгрузкаВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выгрузка в файл</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выгрузка в файл</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выгрузка в файл</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c1c500bf-5faf-4814-8dc9-42a4baa8f916">
+    <name>ЗаменитьСсылкиНаОбъекты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Заменить ссылки на объекты</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Заменить ссылки на объекты</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Заменить ссылки на объекты</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="a98062f0-7456-412c-8997-31415b239c3b">
+    <name>Записать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Записать</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Записать</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5812fe8c-4c45-4860-8773-8e3bad845c0d">
+    <name>ЗаписатьВерсию</name>
+    <synonym>
+      <key>ru</key>
+      <value>Записать версию</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Записать версию</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Записать версию</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa437ea6-796d-4198-908f-aee080235a4f">
+    <name>ИзменитьДобавитьСтроку</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить/добавить строку</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменить/добавить строку</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменить/добавить строку</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="43067e12-b395-4683-90dc-c56e8f62f54c">
+    <name>ИзменитьИдентификаторы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить идентификаторы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменить идентификаторы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменить идентификаторы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6442ffe4-1adb-45b2-817b-d244f4311a36">
+    <name>ИзменитьПометкуНаУдаление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить пометку на удаление</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменить пометку на удаление</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменить пометку на удаление</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7bba9cc1-2968-4080-b259-393265a4d02d">
+    <name>ИзменитьРегистрациюНаУзле</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменить регистрацию на узле</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменить регистрацию на узле</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменить регистрацию на узле</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9b4c934d-66c6-4158-983e-e3f254601735">
+    <name>ОткрытьВДинамическомСписке</name>
+    <synonym>
+      <key>ru</key>
+      <value>Открыть в динамическом списке</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Открыть в динамическом списке</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Открыть в динамическом списке</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="ed684e9a-2322-4ef0-888b-ac581ce7c1a5">
+    <name>ОтменитьПроведениеДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отменить проведение документов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отменить проведение документов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Отменить проведение документов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="20813613-f1ed-4d03-bebd-87caa26ba3c0">
+    <name>ОчиститьДвиженияДокументов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Очистить движения документов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Очистить движения документов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Очистить движения документов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f1a207b4-9fd7-4805-afba-4ab639f0f763">
+    <name>ПеренумерацияОбъектов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перенумерация объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Перенумерация объектов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Перенумерация объектов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="48e35fdc-8662-471d-ade8-89a27de2d0f3">
+    <name>ПодборИОбработка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор и обработка объектов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подбор и обработка объектов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Подбор и обработка объектов</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="66478050-df98-40c1-ba4c-c0c7325735e5">
+    <name>ПровестиДокументы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Провести документы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Провести документы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Провести документы</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d9bd2fc8-57ef-41f6-a81a-1863fdf79d4a">
+    <name>ПроизвольныйАлгоритм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Произвольный алгоритм</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Произвольный алгоритм</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Произвольный алгоритм</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c028502b-2484-4842-86e9-d1941e20ff71">
+    <name>Удалить</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Удалить</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Удалить</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="67471527-05d8-418a-a852-d836b18183c9">
+    <name>УдалитьСКонтролемСсылок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удалить с контролем ссылок</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Удалить с контролем ссылок</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Удалить с контролем ссылок</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da0c6183-68dd-4cd6-90d2-5dbbe81aa993">
+    <name>ШаблонОбработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон обработки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Шаблон обработки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Шаблон обработки</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <help>
+      <pages>
+        <lang>ru</lang>
+      </pages>
+    </help>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cd96feaa-3d4d-4ecb-9457-da3e349bea31">
+    <name>Обработки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обработки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обработки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Обработки</value>
+    </synonym>
+  </templates>
+  <commands uuid="37bfcbf5-78b0-491e-a7b1-442908910eeb">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подбор и обработка объектов БД (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подбор и обработка объектов БД (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Подбор и обработка объектов БД (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="06d9e8a5-03fd-41ab-bb98-af12604b09bd">
+  <name>ирСохранитьКак</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сохранить как</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Сохранить как</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Сохранить как</value>
+  </synonym>
+</mdclass:CommonPicture>

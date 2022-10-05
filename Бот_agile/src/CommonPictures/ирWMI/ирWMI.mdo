@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f65fe0f-64f5-43c0-b50b-784c9666157a">
+  <name>ирWMI</name>
+  <synonym>
+    <key>ru</key>
+    <value>WMI (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>WMI (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>WMI (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

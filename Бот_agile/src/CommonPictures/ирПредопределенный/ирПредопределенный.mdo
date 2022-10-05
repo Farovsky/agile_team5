@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2dd1b0b3-68c2-4a6e-bf5a-05922e91dff8">
+  <name>ирПредопределенный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенный</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Предопределенный</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Предопределенный</value>
+  </synonym>
+</mdclass:CommonPicture>

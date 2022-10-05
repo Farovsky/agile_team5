@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8beea174-f4da-4fbc-9d93-9bb3c3de95f2">
+  <producedTypes>
+    <objectType typeId="6280d810-5032-4e73-8a59-cc07d308b860" valueTypeId="9753ca3d-ff84-461a-a207-bace40e9d842"/>
+    <managerType typeId="a5bb8a87-4b45-4a5f-9c28-c845371d7d7e" valueTypeId="51291173-25ca-4618-b500-318f981cfa48"/>
+  </producedTypes>
+  <name>TelegramGetUpdates</name>
+  <synonym>
+    <key>ru</key>
+    <value>Telegram get updates</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <commands uuid="44d93612-de58-4580-bc4b-79c2a6795652">
+    <name>TelegramGetUpdates</name>
+    <synonym>
+      <key>ru</key>
+      <value>Telegram get updates</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

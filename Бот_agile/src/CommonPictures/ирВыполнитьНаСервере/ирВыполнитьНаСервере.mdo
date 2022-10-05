@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="84b41946-3f51-4970-83f5-d5fcbebbf26b">
+  <name>ирВыполнитьНаСервере</name>
+  <synonym>
+    <key>ru</key>
+    <value>Выполнить на сервере (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Выполнить на сервере (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Выполнить на сервере (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

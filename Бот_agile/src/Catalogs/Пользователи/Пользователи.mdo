@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="50e5246c-2844-473d-9bd6-781e0392fc8d">
+  <producedTypes>
+    <objectType typeId="38a5e6fd-b035-4b9f-b670-5a55448c63cd" valueTypeId="d18ce5d5-28ef-4657-9152-34fedb45eb8e"/>
+    <refType typeId="59d2d6c4-9b17-4258-be16-f0d0f787a4d3" valueTypeId="d7b84b50-e553-4106-b2d2-18137a773ea8"/>
+    <selectionType typeId="e32a059f-1613-4b98-9744-f4671411746a" valueTypeId="3a0174fd-0d39-4736-b951-3b26f92481e1"/>
+    <listType typeId="634e66e2-0d52-4380-8b47-d74ba3169eeb" valueTypeId="d099ec8c-297f-41b1-8d6a-c12e545455db"/>
+    <managerType typeId="717a2291-6eba-4b5f-99b4-3a23402d5d65" valueTypeId="f06f42fe-e803-4fdb-984a-ae2d05727c29"/>
+  </producedTypes>
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.Пользователи.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="4f4104d5-765c-43f7-8cd5-7557e17a54b7">
+    <name>chat_id</name>
+    <synonym>
+      <key>ru</key>
+      <value>Chat id</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="732df9fa-fe09-4665-835a-31b0d774e2eb">
+    <name>Роль</name>
+    <synonym>
+      <key>ru</key>
+      <value>Роль</value>
+    </synonym>
+    <type>
+      <types>EnumRef.РолиПользователей</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9909c6a0-7f88-4f8a-b663-302495d4b53e">
+    <name>Активен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активен</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>

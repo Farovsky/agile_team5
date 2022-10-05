@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a967dfbb-9e37-4ae5-ae01-3315fdac95f3">
+  <name>ирЗапуститьКлиентскоеПриложение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир запустить клиентское приложение</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир запустить клиентское приложение</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир запустить клиентское приложение</value>
+  </synonym>
+</mdclass:CommonPicture>

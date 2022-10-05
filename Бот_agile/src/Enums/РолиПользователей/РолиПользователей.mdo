@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="90eed4ef-c613-4b10-9917-44938a532a77">
+  <producedTypes>
+    <refType typeId="bd0b281e-2d82-426e-a1ac-858552bfd29d" valueTypeId="58e91e6c-8b10-4a5f-8e25-a777d783a521"/>
+    <listType typeId="0eba1c51-991e-47e7-a5a0-cc0d2685c681" valueTypeId="706941ca-aec5-4cc7-a610-70d0b4c7b414"/>
+    <managerType typeId="5ff56c79-5a60-4ba9-a880-0b7545a1331f" valueTypeId="0d0fe4f6-65b9-44f9-9c0f-528d1df05018"/>
+  </producedTypes>
+  <name>РолиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Роли пользователей</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8bd1f1c8-ab50-4afd-bdaf-7854d029a994">
+    <name>Руководитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Руководитель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1c23bf9-6d1e-4d3d-9c9f-151c5409d72f">
+    <name>Разработчик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разработчик</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2e78eb6-3c68-4bbc-8aba-496b633cfbea">
+    <name>ВладелецПродукта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Владелец продукта</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

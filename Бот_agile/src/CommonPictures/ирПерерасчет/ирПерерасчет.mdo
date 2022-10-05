@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="abc7dfb6-9e80-4701-b60d-56d629f5c557">
+  <name>ирПерерасчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Перерасчет (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Перерасчет (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Перерасчет (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

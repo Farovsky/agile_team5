@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="6d38f099-af25-4829-8929-457a3fb05cef">
+  <name>ирExcel</name>
+  <synonym>
+    <key>ru</key>
+    <value>Excel</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Excel</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Excel</value>
+  </synonym>
+</mdclass:CommonPicture>

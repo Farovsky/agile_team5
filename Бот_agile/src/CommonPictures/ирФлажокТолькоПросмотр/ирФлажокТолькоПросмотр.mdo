@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c40fa8c-e2fc-4f3a-aeda-9a210ce9e760">
+  <name>ирФлажокТолькоПросмотр</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир флажок только просмотр</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир флажок только просмотр</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир флажок только просмотр</value>
+  </synonym>
+</mdclass:CommonPicture>

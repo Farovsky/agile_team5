@@ -1,0 +1,3464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3077e763-74cc-4b0b-8973-5ec56587b486">
+  <producedTypes>
+    <objectType typeId="d330ad8c-036b-4215-9728-7472908b4fc1" valueTypeId="f51923f2-938e-44e4-aa3e-00fe038e6cdd"/>
+    <managerType typeId="0d272758-273c-4061-8087-508a37787593" valueTypeId="e78fff94-5275-43b4-9ed7-92e084f21c3f"/>
+  </producedTypes>
+  <name>ирУправлениеСлужбамиСервера1С</name>
+  <synonym>
+    <key>ru</key>
+    <value>Управление службами серверов 1С (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Управление службами серверов 1С (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Управление службами серверов 1С (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирУправлениеСлужбамиСервера1С.Form.Форма</defaultForm>
+  <attributes uuid="e9a4520a-bf0e-4290-b331-18fed135f1dd">
+    <name>ПарольСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пароль СУБД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пароль СУБД</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пароль СУБД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="9965f9df-5634-495c-9ad2-610301f9fc5c">
+    <name>ПользовательСУБД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь СУБД</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь СУБД</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пользователь СУБД</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <passwordMode>true</passwordMode>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="0dafc48f-ed19-458b-a888-cce1a2b56b09">
+    <producedTypes>
+      <objectType typeId="c41a23f3-a27c-4a1d-8fe8-b8a90fb49292" valueTypeId="65072122-efac-4ac9-ac94-196321fe23c2"/>
+      <rowType typeId="a9e03e4e-029e-4694-98aa-ea07c0bdd23f" valueTypeId="2d7fe73a-0744-4baa-ac1d-e069f99562c9"/>
+    </producedTypes>
+    <name>БазыКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Базы кластера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Базы кластера</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Базы кластера</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="9c5e941c-c105-4920-b876-67ec22367f28">
+      <name>БазаСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>База СУБД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>База СУБД</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>База СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9af642b5-05dc-4035-bec6-577d6d8c1979">
+      <name>Идентификатор</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Идентификатор</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4658a4d9-097a-4629-bb16-a347ff9c6199">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0a64216b-0d14-4544-b7b7-f131c6ba4b28">
+      <name>МодельСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Модель СУБД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Модель СУБД</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Модель СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="30ee44f5-f274-4df1-b609-3ed793bffdce">
+      <name>НовыйФорматЖурнала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Новый формат журнала</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Новый формат журнала</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Новый формат журнала</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="69711c76-b034-4364-85b3-f4504ca94dc6">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a5687125-d9fa-4ca4-9284-db1c45175aac">
+      <name>РазмерЖурналаРегистрацииМБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер журнала регистрации МБ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Размер журнала регистрации МБ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Размер журнала регистрации МБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="18f91820-d83e-4dce-95bf-b51b7ff4eab1">
+      <name>РазмерИндексаПоискаМБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер индекса поиска МБ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Размер индекса поиска МБ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Размер индекса поиска МБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0fcaa5b7-e86d-4cfd-b4d6-1a225c708596">
+      <name>РазмерОбщийМБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер общий МБ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Размер общий МБ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Размер общий МБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="108b6e84-8163-47ee-bc1a-41a3392a7331">
+      <name>РазмерСУБДОбщийМБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Размер СУБД общий МБ</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Размер СУБД общий МБ</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Размер СУБД общий МБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="058cba54-eb1a-4524-8498-4266fd6f51cf">
+      <name>СерверСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер СУБД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервер СУБД</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сервер СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="11607989-f743-4115-99ea-3837e28f6c55">
+      <name>СозданаСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Создана СУБД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Создана СУБД</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Создана СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f5891d8c-a0dc-4c76-9c76-864fde7fa4e4">
+      <name>СтатусСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Статус СУБД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Статус СУБД</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Статус СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="4b62d35b-d714-4b17-81eb-153826568cf6">
+      <name>ТипСУБД</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип СУБД</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип СУБД</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип СУБД</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="ba364370-425d-4748-a65b-ddaefe1cf658">
+    <producedTypes>
+      <objectType typeId="e2d77af2-5713-4234-9891-e7bb4e542fbc" valueTypeId="84b137ff-0831-4790-87be-2cf1827575cd"/>
+      <rowType typeId="19aaabd7-5743-4ec0-bcf5-e63132b634a9" valueTypeId="e3eeed97-6f47-4a7d-87b3-2b4df3cbcdcc"/>
+    </producedTypes>
+    <name>СборкиПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сборки платформы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Сборки платформы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Сборки платформы</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="f93c517c-5d3c-4d91-be27-792d98ec5117">
+      <name>Application</name>
+      <synonym>
+        <key>ru</key>
+        <value>Толстый клиент</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Толстый клиент</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Толстый клиент</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы толстого клиента, (1cv8.exe, Application)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы толстого клиента, (1cv8.exe, Application)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы толстого клиента, (1cv8.exe, Application)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="77a39e53-cbfe-4c92-b5b7-2cfa78bfe8a8">
+      <name>CApplication</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тонкий клиент</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тонкий клиент</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тонкий клиент</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы тонкого клиента, (1cv8с.exe, СApplication)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы тонкого клиента, (1cv8с.exe, СApplication)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы тонкого клиента, (1cv8с.exe, СApplication)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="20b05c91-ccf5-45e3-a0df-719a24b94da9">
+      <name>ComConnector</name>
+      <synonym>
+        <key>ru</key>
+        <value>Внешнее соединение</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Внешнее соединение</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Внешнее соединение</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы внешнего соединения, оно же COM-соединитель, (comcntr.dll, ComConnector)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы внешнего соединения, оно же COM-соединитель, (comcntr.dll, ComConnector)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы внешнего соединения, оно же COM-соединитель, (comcntr.dll, ComConnector)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="55a61309-11e1-4cfc-9508-e3c9d3aef124">
+      <name>ServerAdminScope</name>
+      <synonym>
+        <key>ru</key>
+        <value>Консоль серверов</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Консоль серверов</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Консоль серверов</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы консоли серверов (radmin.dll, ServerAdminScope)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы консоли серверов (radmin.dll, ServerAdminScope)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы консоли серверов (radmin.dll, ServerAdminScope)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ca9caaf6-15e8-4ddc-8486-18290cf76b58">
+      <name>x64</name>
+      <synonym>
+        <key>ru</key>
+        <value>X64</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>X64</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>X64</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="844bdf9a-ddf3-4c48-a70c-6a9dced79cd5">
+      <name>АгентСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Агент сервера</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Агент сервера</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Агент сервера</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы агента сервера (ragent.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы агента сервера (ragent.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы агента сервера (ragent.exe)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="da418b81-7812-47be-a4ff-d91cc88d277c">
+      <name>ИзданиеПлатформы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Издание платформы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Издание платформы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Издание платформы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>6</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="676b41dd-74e9-4eb2-93fa-8310770dcb01">
+      <name>Каталог</name>
+      <synonym>
+        <key>ru</key>
+        <value>Каталог</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Каталог</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Каталог</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="2b56a812-97ee-4b36-9ef3-a87434b9a9d5">
+      <name>КлючСборки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ключ сборки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Ключ сборки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Ключ сборки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c8da3933-49fb-431e-a94f-fc93342eb89e">
+      <name>НКаталог</name>
+      <synonym>
+        <key>ru</key>
+        <value>Н каталог</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Н каталог</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Н каталог</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5d8e21db-b4a1-4307-bb01-80472374d360">
+      <name>Порядок</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Порядок</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f6c498a2-0e0d-4ccf-81bf-32efe89fff85">
+      <name>СборкаПлатформы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e9999ce0-fe23-49a2-b2ae-d027341e361d">
+      <name>СерверАдминистрирования</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер администрирования</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервер администрирования</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сервер администрирования</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы сервера администрирования (ras.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы сервера администрирования (ras.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы сервера администрирования (ras.exe)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c223bade-e0bf-4074-9882-74f466fe964e">
+      <name>СерверОтладки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер отладки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервер отладки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сервер отладки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы сервера отладки (dbgs.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы сервера отладки (dbgs.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы сервера отладки (dbgs.exe)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="92b39f8a-2413-41fc-ae9e-0cc98cf37404">
+      <name>СерверХранилища</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер хранилища</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервер хранилища</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сервер хранилища</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Присутствуют файлы сервера отладки (crserver.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Присутствуют файлы сервера отладки (crserver.exe)</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Присутствуют файлы сервера отладки (crserver.exe)</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="82129379-e5e2-4e44-88e4-dbb9f34d3888">
+      <name>ФайлыСуществуют</name>
+      <synonym>
+        <key>ru</key>
+        <value>Файлы существуют</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Файлы существуют</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Файлы существуют</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="49c51f49-cd9a-4233-a039-b2807fb144e2">
+    <producedTypes>
+      <objectType typeId="b7c95aad-3f6b-4ee4-b1f2-351182323d49" valueTypeId="47b48ea8-20f2-47e1-b6c2-5ec63592167f"/>
+      <rowType typeId="cca6fcae-3993-4258-820e-6105953dd87e" valueTypeId="601bcfd0-b5ae-41af-872a-34869b6beaa3"/>
+    </producedTypes>
+    <name>СлужбыАгентовСерверов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Службы агентов серверов 1С</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Службы агентов серверов 1С</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Службы агентов серверов 1С</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="d10e6659-7dd4-4dd1-941a-9b03013e560c">
+      <name>Автозапуск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b2949f88-f679-4f5c-8400-bd927cb510dc">
+      <name>Выполняется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Выполняется</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="c4924584-0744-4e7f-9f96-c3ea0736e6f9">
+      <name>ИдентификаторПроцесса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5bb2cba6-9813-402d-a8da-314d5b3945bb">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1b1c5fef-79eb-4a00-890a-7d10cfaf5052">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7216530b-87d8-4dd8-8a55-d4df48f87874">
+      <name>КаталогКонфигурации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Каталог конфигурации</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Каталог конфигурации</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Каталог конфигурации</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="b6598579-68a7-49e7-9e81-e8803fdae099">
+      <name>КонечныйПортРабочихПроцессов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Конечный порт рабочих процессов</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Конечный порт рабочих процессов</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Конечный порт рабочих процессов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если не задан, то используется Порт+51</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Если не задан, то используется Порт+51</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Если не задан, то используется Порт+51</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="af47f390-9be3-449d-9873-80fabf49209d">
+      <name>НачальныйПортРабочихПроцессов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Начальный порт рабочих процессов</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Начальный порт рабочих процессов</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Начальный порт рабочих процессов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Если не задан, то используется Порт+20</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Если не задан, то используется Порт+20</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Если не задан, то используется Порт+20</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="946fa364-18fd-4e0c-a58c-f9a9659b0f66">
+      <name>ПараметрыИзменены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="0878d32b-6fb9-4a49-b2af-b4ca6fe00b71">
+      <name>ПарольПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <passwordMode>true</passwordMode>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="eff1fea6-827d-4de0-a02c-d8d29f26da85">
+      <name>Порт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:NumberValue">
+        <value>1540</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d94b4bfe-4ce7-43b6-870d-0209bb9f24ed">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e1e2d2f4-e14e-4250-aa44-45aa6537766f">
+      <name>РежимОтладки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Режим отладки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Режим отладки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Режим отладки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d8620965-1209-4bfa-81fe-8ae0079a328f">
+      <name>СборкаПлатформыАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9ea8f88f-08d7-4981-b456-81cae56e2291">
+      <name>СборкаПлатформыНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="d8e26e70-6ec5-46ff-93fe-336135f1822c">
+      <name>СерверОтладкиАдрес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер отладки адрес</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервер отладки адрес</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сервер отладки адрес</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d48b0548-da3a-4169-a595-9503a0593fc4">
+      <name>СерверОтладкиПароль</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль сервер отладки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пароль сервер отладки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пароль сервер отладки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>30</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="a4b5e051-5f7e-4982-906b-22a305799ab1">
+      <name>СерверОтладкиПорт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сервер отладки порт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сервер отладки порт</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сервер отладки порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4366e979-10c1-476c-a7c4-fb3a1dc39a0e">
+      <name>СтрокаЗапускаАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="25195411-8844-408e-b752-1181ad5fd3d6">
+      <name>СтрокаЗапускаНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3c62abea-42c1-4837-a822-eab74e4ab505">
+      <name>СтрокаЗапускаСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1116615e-3839-45fc-b5d1-a9c1b4fb8978">
+      <name>ТипСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3198826c-1ff5-4f8b-b4f5-3668554221e6">
+      <name>Удалить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Удалить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="dc3e3f00-889b-4d12-9fbf-1ae29a7242b9">
+      <name>ЭтоНоваяСлужба</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="978ea158-0097-49b8-9b92-e039d5386e9c">
+    <producedTypes>
+      <objectType typeId="e0d4c8f3-fe33-426d-9280-870fdf5a756c" valueTypeId="9455ea3f-16cb-4ec9-b2b2-cedc00b50f2f"/>
+      <rowType typeId="a0b4efcc-3ce0-404d-a83b-0c4762f8eb55" valueTypeId="9ed118b6-a5e2-49c4-b430-414fe3b47f18"/>
+    </producedTypes>
+    <name>СлужбыСерверовАдминистрирования</name>
+    <synonym>
+      <key>ru</key>
+      <value>Службы серверов администрирования</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Службы серверов администрирования</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Службы серверов администрирования</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="3200814a-27e5-40c9-bed6-9582917711ca">
+      <name>Автозапуск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="7c84e591-c324-4321-a248-11ea57fdb9dc">
+      <name>Выполняется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Выполняется</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="453343b6-7e79-4979-bf9e-44e5ceb398ca">
+      <name>ИдентификаторПроцесса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="f421bca8-cbc1-4948-b093-4185d5f60ef8">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="f1e8fcb8-a2e6-4380-8eaf-868ebdf856df">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c324dbce-a565-4fb5-9958-6842c581aa96">
+      <name>ПараметрыИзменены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="fefbac21-0780-402e-b38e-8933b2c0ccbe">
+      <name>ПарольПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <passwordMode>true</passwordMode>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="af1df053-4985-47bb-aeb0-cb53017720da">
+      <name>Порт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:NumberValue">
+        <value>1540</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5bf666e3-b180-47e7-81b4-fa1ee6e27dd7">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="1a2d76af-e843-4f86-8d28-8eac6bfb5f40">
+      <name>РежимКластера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Режим кластера</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Режим кластера</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Режим кластера</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b27a3a72-a813-43e6-b90a-02bcbc71ea07">
+      <name>СборкаПлатформыАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ce836c50-b0d9-4dca-8c01-6198f90baa46">
+      <name>СборкаПлатформыНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="ebae89b2-fe6d-4ac1-942e-3f9c67d0d6c0">
+      <name>СтрокаЗапускаАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5fb7568d-f2ce-4565-b48d-8ebde15df0b5">
+      <name>СтрокаЗапускаНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="ba607a3f-76e1-4baa-a903-f2e71a16c6e2">
+      <name>СтрокаЗапускаСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="caaf54f3-0328-4e1a-9b33-71af2c54416a">
+      <name>СтрокаСоединенияАгентаСервера</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка соединения агента сервера</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка соединения агента сервера</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка соединения агента сервера</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="52efb8bb-976f-4187-96d4-305465309317">
+      <name>Удалить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Удалить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aa86f7cc-09fb-4c85-9998-927c1b72a27d">
+      <name>ЭтоНоваяСлужба</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5ab888f3-87e3-4e91-ad22-24a0b7c5e105">
+      <name>ТипСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="54c26527-fd38-47d2-9e89-07996a726501">
+    <producedTypes>
+      <objectType typeId="d1f00559-14ff-4028-b2c2-828951447ea5" valueTypeId="dd8e0433-283f-4653-910d-d4fdf3312114"/>
+      <rowType typeId="eaa8fca7-3d2d-43a2-839c-71252cb26e62" valueTypeId="7533ef47-2780-49a4-b40a-a195c095f4e6"/>
+    </producedTypes>
+    <name>СлужбыСерверовОтладки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Службы серверов отладки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Службы серверов отладки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Службы серверов отладки</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="872f72c2-7724-47b0-b675-b89ea3933b64">
+      <name>Автозапуск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="21395ec1-ada5-4d31-be21-ca2d4ec82e8e">
+      <name>Выполняется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Выполняется</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="8efe7f2d-bc9a-47b7-b39c-fa035eef559c">
+      <name>ИдентификаторПроцесса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5620b78c-3e91-459b-9872-c155d62c2845">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="47e3357b-151d-4483-a607-8969481fbb3a">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="d211fedc-e78d-4dfa-98db-d52a93a1d786">
+      <name>ПараметрыИзменены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="92f1fd57-25ab-488f-a5d2-8cd36c23772c">
+      <name>ПарольПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <passwordMode>true</passwordMode>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="55117bbe-1262-4409-be4c-59caa7b30319">
+      <name>Порт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:NumberValue">
+        <value>1540</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="310cdaf8-84e0-464c-bb07-a5b44fbf1132">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="e778d8f7-89f3-482d-880f-214fc6827821">
+      <name>СборкаПлатформыАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2db7bcba-f8f0-4aaa-96e4-a256347f177b">
+      <name>СборкаПлатформыНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="cbfb2018-1edc-4008-9cf2-2e504887ab2e">
+      <name>СтрокаЗапускаАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="36626eeb-3926-42f0-adfb-f8061e1e720f">
+      <name>СтрокаЗапускаНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="0ede8f37-f261-4bfd-b319-60e6bbbd499a">
+      <name>СтрокаЗапускаСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9ce0c818-48c3-4ab4-a020-981d4f53014d">
+      <name>Удалить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Удалить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="2b3d5c8e-c76c-407b-a104-aa694858296e">
+      <name>ЭтоНоваяСлужба</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="1200f873-421c-4669-8dbc-3e5a49251cc5">
+      <name>ТипСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="9b0b5d5d-10cb-4156-acc8-cdd4bb4e5a57">
+    <producedTypes>
+      <objectType typeId="660efe76-594d-4287-93f8-f5079c0e59a6" valueTypeId="bf7894ca-98a0-4652-83bf-3570495765de"/>
+      <rowType typeId="acf595c9-78d8-41aa-8819-66b1daa6fc52" valueTypeId="6fa930ac-d3f7-4969-ac11-7c9b03e129c3"/>
+    </producedTypes>
+    <name>СлужбыХранилищКонфигураций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Службы хранилищ конфигураций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Службы хранилищ конфигураций</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Службы хранилищ конфигураций</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="af2012bb-a843-4204-8093-19789e644747">
+      <name>Автозапуск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Автозапуск службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="48f83f49-80e8-44cc-856a-8f3625b91abc">
+      <name>Выполняется</name>
+      <synonym>
+        <key>ru</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Выполняется</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Выполняется</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="6be76bd8-fa04-4f5f-bb76-1c8f5ec9adcf">
+      <name>ИдентификаторПроцесса</name>
+      <synonym>
+        <key>ru</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Идентификатор процесса</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="4d5538c1-0e97-471c-93ce-087c387e6b0e">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="89efac66-dd6e-4d24-b788-787192264d8c">
+      <name>ИмяПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Имя пользователя Windows, от имени которого будет стартовать процесс. Например: .\Server1C. Применяется только если указан пароль.</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="38ce4a61-14a2-4125-9a5e-cd75655be099">
+      <name>КаталогХранилища</name>
+      <synonym>
+        <key>ru</key>
+        <value>Каталог хранилища</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Каталог хранилища</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Каталог хранилища</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="8a200540-350c-46b1-bd2d-83926b423bbd">
+      <name>ПараметрыИзменены</name>
+      <synonym>
+        <key>ru</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Параметры изменены</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Параметры запуска нового процесса отличаются от параметров, с которыми запущен текущий процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="22e9f451-bb5b-48d9-a705-318cf1913deb">
+      <name>ПарольПользователя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Пароль пользователя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>20</length>
+        </stringQualifiers>
+      </type>
+      <passwordMode>true</passwordMode>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c59bd32f-8aad-4705-9ef6-78fef48ded7d">
+      <name>Порт</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Порт</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Порт</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>6</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillFromFillingValue>true</fillFromFillingValue>
+      <fillValue xsi:type="core:NumberValue">
+        <value>1540</value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="01243dc6-cc65-4970-afad-69fde25e7fb5">
+      <name>Представление</name>
+      <synonym>
+        <key>ru</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Представление</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Представление</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>150</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7ba6c0fe-b553-4f82-9607-2f479c1113b7">
+      <name>СборкаПлатформыАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой сформирована строка запуска активного процесса</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5f800b2d-52d2-4437-ae51-d31f705484c5">
+      <name>СборкаПлатформыНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Сборка платформы новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Сборка платформы, из которой будет сформирована строка запуска нового процесса при нажатии Применить</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="65c8a5c5-fb0e-4e25-9cef-59c4f5495149">
+      <name>СтрокаЗапускаАктивная</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска активная</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запущен активный процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="c2e3771a-d613-48e8-8feb-cce6c0b3d1a1">
+      <name>СтрокаЗапускаСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, с которой запускается новый процесс службы</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7a36761e-5d03-4fe0-ac44-5e8677a712c1">
+      <name>СтрокаЗапускаНовая</name>
+      <synonym>
+        <key>ru</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Строка запуска новая</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Командная строка, которая будет установлена для службы при применении изменений</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="361675e9-aca1-4c7c-a6ff-683c7e617a8f">
+      <name>Удалить</name>
+      <synonym>
+        <key>ru</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Удалить</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Удалить</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <toolTip>
+        <key>ru</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>en</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <toolTip>
+        <key>uk</key>
+        <value>Удалить службу!</value>
+      </toolTip>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="9618b98e-fd8f-4b7a-95a6-1554b696912a">
+      <name>ЭтоНоваяСлужба</name>
+      <synonym>
+        <key>ru</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Это новая служба</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="84ab1ada-fe5f-4acb-b029-50f207ee2e6b">
+      <name>ТипСлужбы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип службы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип службы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="0f60d62a-caa3-4785-b353-3b7f7df558f7">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="4495509c-ce4f-40e1-a02f-28fa52924212">
+    <name>СписокБазКластера</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список баз кластера</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Список баз кластера</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Список баз кластера</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="cb6ddbe3-826c-4ca3-8dec-614a6c07ca2c">
+    <name>ПараметрыТиповСлужб</name>
+    <synonym>
+      <key>ru</key>
+      <value>Параметры типов служб</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Параметры типов служб</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Параметры типов служб</value>
+    </synonym>
+  </templates>
+  <templates uuid="ce47c41f-dac0-46ea-a002-759a3530f979">
+    <name>СкриптУстановкаПравNTFS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт установка прав NTFS</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Скрипт установка прав NTFS</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Скрипт установка прав NTFS</value>
+    </synonym>
+    <comment>https://netlly.ru/posh-ntfs/</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="90033092-aa55-46fb-9879-32d90d2512a8">
+    <name>СкриптУстановкаПравNTFS_Описание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Скрипт установка прав NTFS описание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Скрипт установка прав NTFS описание</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Скрипт установка прав NTFS описание</value>
+    </synonym>
+    <comment>https://netlly.ru/posh-ntfs/</comment>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="871f48e6-da4a-4bf9-92b1-4ec9edd73587">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управление службами серверов 1С (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Управление службами серверов 1С (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Управление службами серверов 1С (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="91ab3623-1539-4925-85d6-0dfec0486776">
+  <producedTypes>
+    <objectType typeId="4a1fa0e0-63fa-4ed2-b1f8-9b387305bdca" valueTypeId="9ad0c024-3bea-4193-89eb-21d75100713c"/>
+    <managerType typeId="040a8109-081b-451f-a1a2-32a5de16c7ef" valueTypeId="84d7590e-e5f5-40d5-ac91-0e861b12b463"/>
+  </producedTypes>
+  <name>ирПортативный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портативный (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Портативный (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Портативный (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирПортативный.Form.Форма</defaultForm>
+  <auxiliaryForm>DataProcessor.ирПортативный.Form.ЗапускСеансаУправляемая</auxiliaryForm>
+  <attributes uuid="51db2b75-07c0-4319-a124-906ab862de09">
+    <name>ирКэш</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ир кэш</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ир кэш</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ир кэш</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="996285d3-cc62-4476-adea-2b698c7916f7">
+    <name>ирОбщий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ир общий</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ир общий</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ир общий</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="464cb5e3-47c8-4f6b-9de1-43b7dd639982">
+    <name>ирПортативный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ир портативный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ир портативный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ир портативный</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e66b0260-dcb8-4b62-bdc2-4e5977b12322">
+    <name>ирПривилегированный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ир привилегированный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ир привилегированный</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ир привилегированный</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="807b556b-bb1a-4e41-84cf-3405ce5b22c7">
+    <name>ирСервер</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ир сервер</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Ир сервер</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Ир сервер</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2fab7f89-d65c-4a1e-b08f-0a38c9175b80">
+    <name>ОпределениеСерверногоВремени</name>
+    <synonym>
+      <key>ru</key>
+      <value>Определение серверного времени</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Определение серверного времени</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Определение серверного времени</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="60e0f612-1db0-434f-b8d2-fc5b73abdad8">
+    <name>ПользовательВнешнегоСоединения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пользователь внешнего соединения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Пользователь внешнего соединения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Пользователь внешнего соединения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="2dfbbb71-8072-44a2-aad9-a1d752d67755">
+    <name>РасположениеПанелиЗапуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расположение панели запуска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Расположение панели запуска</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Расположение панели запуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>1</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f3462e22-25eb-43d5-b363-b4d4c8d68fdf">
+    <name>ЭмуляцияЗаписиНаСервере</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмуляция записи на сервере</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Эмуляция записи на сервере</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Эмуляция записи на сервере</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="68ff27fb-9e13-4af8-93b5-765b019dec35">
+    <producedTypes>
+      <objectType typeId="f0e49f09-969c-44b1-b093-e694400ce17e" valueTypeId="37db5cdb-c4d0-44b3-857b-f5201d7e2055"/>
+      <rowType typeId="79fb04e2-e908-4f9d-9cd0-b1a851b814d9" valueTypeId="8782ff62-e89d-4314-b046-57b72a881032"/>
+    </producedTypes>
+    <name>СписокИнструментов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Список инструментов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Список инструментов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Список инструментов</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="085af78d-540a-4d3b-95d9-1e8831f70c35">
+      <name>Автозапуск</name>
+      <synonym>
+        <key>ru</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Автозапуск</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="b8dd42ad-8441-4936-8d82-fadf546afff7">
+      <name>Видимость</name>
+      <synonym>
+        <key>ru</key>
+        <value>Видимость</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Видимость</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Видимость</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="60973e84-ccea-4b98-857a-36fcd48841e2">
+      <name>Группа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Группа</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Группа</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Группа</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>50</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="014c2e2d-e57a-497c-9c50-c979f82c8752">
+      <name>ИмяКартинки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя картинки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя картинки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя картинки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="7630be31-6246-4469-9869-e092923fbc41">
+      <name>Описание</name>
+      <synonym>
+        <key>ru</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Описание</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Описание</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="079d8a51-6d1e-4424-b5b6-687b1de51801">
+      <name>ПолноеИмя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Обработка</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Обработка</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Обработка</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="04d1d81b-94cb-4753-bdd6-511a633a8842">
+      <name>Синоним</name>
+      <synonym>
+        <key>ru</key>
+        <value>Синоним</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Синоним</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Синоним</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>300</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="fc13d768-d8da-42c5-9aa4-9a75d99bccc4">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="5f65a754-9a0c-4787-ac2d-e1cdd4fb7e11">
+    <name>ПолучениеФорм</name>
+    <synonym>
+      <key>ru</key>
+      <value>Получение форм</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Получение форм</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Получение форм</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="2519aa10-5053-4825-ab54-cfdd58ac5835">
+    <name>ФормаНастроек</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма настроек</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="da8cd7b9-e15c-4f6c-a453-5d58255ee941">
+    <name>ЗапускСеансаУправляемая</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск сеанса управляемая</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Запуск сеанса управляемая</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Запуск сеанса управляемая</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="973faaf2-9fa6-40e5-8e34-b9083279681c">
+    <name>ЗапускСеансаОбычная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запуск сеанса обычная</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Запуск сеанса обычная</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Запуск сеанса обычная</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="11278eb1-673a-4b95-8455-e930cb95004d">
+    <name>ВК_readme</name>
+    <synonym>
+      <key>ru</key>
+      <value>В к readme</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>В к readme</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>В к readme</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <templates uuid="c5584f7c-8a32-4c64-af6f-e5e28a0e4b6d">
+    <name>ВК32</name>
+    <synonym>
+      <key>ru</key>
+      <value>В к32</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>В к32</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>В к32</value>
+    </synonym>
+    <comment>https://github.com/tormozit/RDT_Common_1C</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="a8ad35c8-2645-48f5-a6f3-929ef58cbba9">
+    <name>ВК64</name>
+    <synonym>
+      <key>ru</key>
+      <value>В к64</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>В к64</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>В к64</value>
+    </synonym>
+    <comment>https://github.com/tormozit/RDT_Common_1C</comment>
+    <templateType>BinaryData</templateType>
+  </templates>
+  <templates uuid="7e5cffa9-15c4-4caf-881b-018c85d6e013">
+    <name>ОбщиеКартинки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Общие картинки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Общие картинки</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Общие картинки</value>
+    </synonym>
+  </templates>
+</mdclass:DataProcessor>

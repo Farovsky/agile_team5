@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Style xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d4fb5140-8838-483f-9452-47ac6138c9d1">
+  <name>ирОсновной</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Основной (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Основной (ИР)</value>
+  </synonym>
+</mdclass:Style>

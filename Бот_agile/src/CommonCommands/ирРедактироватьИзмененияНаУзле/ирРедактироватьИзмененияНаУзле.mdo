@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonCommand xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d7797e42-b3ca-435e-91b0-f6be62ffccdc">
+  <name>ирРедактироватьИзмененияНаУзле</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактировать изменения на узле (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Редактировать изменения на узле (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Редактировать изменения на узле (ИР)</value>
+  </synonym>
+  <comment>Для любых планов обмена</comment>
+  <group>CommandGroup.ирКоманднаяПанельФормы</group>
+  <commandParameterType/>
+  <representation>Auto</representation>
+  <toolTip>
+    <key>ru</key>
+    <value>Передать узел в редактор изменений на узле</value>
+  </toolTip>
+  <toolTip>
+    <key>en</key>
+    <value>Передать узел в редактор изменений на узле</value>
+  </toolTip>
+  <toolTip>
+    <key>uk</key>
+    <value>Передать узел в редактор изменений на узле</value>
+  </toolTip>
+  <picture xsi:type="core:PictureRef">
+    <picture>CommonPicture.ирИзмененияНаУзле</picture>
+  </picture>
+</mdclass:CommonCommand>

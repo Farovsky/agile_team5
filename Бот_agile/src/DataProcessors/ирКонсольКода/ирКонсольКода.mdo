@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fc42a2ce-9cc6-465a-b4a8-96ad7d6e8013">
+  <producedTypes>
+    <objectType typeId="096bfa58-3f7b-454a-8f61-f86511b71ab7" valueTypeId="a0e4a8a6-0066-430f-9734-1a5e54ff3254"/>
+    <managerType typeId="1fa14405-09ea-4009-832b-e7a8e80c661a" valueTypeId="28d7dd7d-b0a6-4b9d-be38-44618a589958"/>
+  </producedTypes>
+  <name>ирКонсольКода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Консоль кода (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Консоль кода (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Консоль кода (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирКонсольКода.Form.Форма</defaultForm>
+  <forms uuid="05fcf94a-0377-449c-bf64-580ad24cd504">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3c07df48-3997-48db-b935-1fb79914ce77">
+    <name>ВыделениеМетода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выделение метода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выделение метода</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выделение метода</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="cd72b562-2c52-4a37-aaea-c8733b927574">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Консоль кода (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Консоль кода (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Консоль кода (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

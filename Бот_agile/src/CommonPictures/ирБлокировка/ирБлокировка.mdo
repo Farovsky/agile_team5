@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d88a9649-0bd1-4fda-8c5c-92a2bf155336">
+  <name>ирБлокировка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Блокировка</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Блокировка</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Блокировка</value>
+  </synonym>
+</mdclass:CommonPicture>

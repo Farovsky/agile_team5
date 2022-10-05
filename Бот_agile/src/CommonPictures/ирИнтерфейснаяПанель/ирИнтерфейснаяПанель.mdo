@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3d510c6e-0d07-453c-af65-fb96ff26fd61">
+  <name>ирИнтерфейснаяПанель</name>
+  <synonym>
+    <key>ru</key>
+    <value>Интерфейсная панель (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Интерфейсная панель (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Интерфейсная панель (ИР)</value>
+  </synonym>
+  <transparentPixel>
+    <x>11</x>
+    <y>3</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="978f2c88-7ac4-495d-ba22-f749e6352b95">
+  <name>ирЗамер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Замер (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Замер (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Замер (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

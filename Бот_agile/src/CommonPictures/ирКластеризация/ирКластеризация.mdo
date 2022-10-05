@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="544c5178-cd01-4063-b6d6-d3a67788a5e9">
+  <name>ирКластеризация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кластеризация</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Кластеризация</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Кластеризация</value>
+  </synonym>
+</mdclass:CommonPicture>

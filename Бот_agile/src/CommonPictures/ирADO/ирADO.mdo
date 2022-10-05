@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="caf89f9b-667b-4f40-94d7-c32850a0541e">
+  <name>ирADO</name>
+  <synonym>
+    <key>ru</key>
+    <value>ADO (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>ADO (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>ADO (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

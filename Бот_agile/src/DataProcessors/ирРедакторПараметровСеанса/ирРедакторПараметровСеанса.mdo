@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8ec258ed-e223-475e-be74-5fb8a3d50c72">
+  <producedTypes>
+    <objectType typeId="6356288a-a661-4227-ba3c-d96c1f823598" valueTypeId="c153ba35-a7a0-4c22-9735-069ef9b626ee"/>
+    <managerType typeId="6b7b8bd7-206d-4e22-8ff7-645f60e3d12a" valueTypeId="11b2ff4e-b537-4e03-95ed-43ef7dd3cbdf"/>
+  </producedTypes>
+  <name>ирРедакторПараметровСеанса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Редактор параметров сеанса (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Редактор параметров сеанса (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Редактор параметров сеанса (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирРедакторПараметровСеанса.Form.Форма</defaultForm>
+  <forms uuid="eb7e663e-36e0-4d4e-90c9-b85ccef9cb87">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="2fd9c4c5-a862-4ed7-9b54-4ea6aa2227a9">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор параметров сеанса (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Редактор параметров сеанса (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Редактор параметров сеанса (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

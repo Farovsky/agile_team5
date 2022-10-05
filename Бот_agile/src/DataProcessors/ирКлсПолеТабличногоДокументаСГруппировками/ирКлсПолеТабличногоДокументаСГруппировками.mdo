@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="97cbab0a-d757-4b36-8acc-c49b92e08aed">
+  <producedTypes>
+    <objectType typeId="91879242-547c-475e-9d72-621e6d197a4c" valueTypeId="6f238740-ce56-4d6a-96fc-7fd30a521dd3"/>
+    <managerType typeId="a4109dce-cdd5-4753-9926-856853c667bd" valueTypeId="458f0311-1721-48b4-be71-b9b9599f20a6"/>
+  </producedTypes>
+  <name>ирКлсПолеТабличногоДокументаСГруппировками</name>
+  <synonym>
+    <key>ru</key>
+    <value>Класс &quot;Поле табличного документа с группировками&quot;</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Класс &quot;Поле табличного документа с группировками&quot;</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Класс &quot;Поле табличного документа с группировками&quot;</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирКлсПолеТабличногоДокументаСГруппировками.Form.ФормаМакет</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <attributes uuid="aa165e16-d356-4046-b3b9-ed767b0a0a0f">
+    <name>Имя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Имя</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Имя</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5fb0b2d0-013a-4aee-adf2-4bbac6441390">
+    <name>КоманднаяПанель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Командная панель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Командная панель</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Командная панель</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="94f6ca1b-63e9-4fed-83ff-c0e9cf965e75">
+    <name>ПолеТабличногоДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поле табличного документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Поле табличного документа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Поле табличного документа</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="abdd5a5a-43cc-4389-8759-051bb5b919b4">
+    <name>ФормаМакет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма макет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма макет</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма макет</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

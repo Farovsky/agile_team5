@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee523808-3a7b-40e0-82a9-5baf3e91bf04">
+  <name>ирRegexBuddy</name>
+  <synonym>
+    <key>ru</key>
+    <value>Regex buddy</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Regex buddy</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Regex buddy</value>
+  </synonym>
+</mdclass:CommonPicture>

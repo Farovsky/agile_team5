@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4ee0e42b-f7d0-451d-b43d-7de45ecd1e11">
+  <name>ирГенератор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Генератор</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Генератор</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Генератор</value>
+  </synonym>
+</mdclass:CommonPicture>

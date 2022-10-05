@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d69c52d-6f69-49b2-92fa-f77fe8f28a63">
+  <producedTypes>
+    <objectType typeId="2addb3ef-c0a0-4d85-9558-da802871eceb" valueTypeId="9033a35b-2fcb-410b-90b9-810c918db8c9"/>
+    <managerType typeId="e513c43d-2983-468f-ad4c-315c00f8f10e" valueTypeId="d538385b-b921-4583-96cc-bbc271b2678c"/>
+  </producedTypes>
+  <name>ирСтатистикаПоЗапросамСУБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Статистика по запросам СУБД (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Статистика по запросам СУБД (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Статистика по запросам СУБД (ИР)</value>
+  </synonym>
+  <defaultForm>Report.ирСтатистикаПоЗапросамСУБД.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ирСтатистикаПоЗапросамСУБД.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <forms uuid="745aba41-2db2-4baa-bc4a-4d1c36cb6b02">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="2f496386-2da5-4526-938b-9b427c62798e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="1ed1f0de-ff78-47f4-a800-d0d35f089854">
+    <name>ЗапросMSSQL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Запрос MSSQL</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Запрос MSSQL</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Запрос MSSQL</value>
+    </synonym>
+    <templateType>TextDocument</templateType>
+  </templates>
+  <commands uuid="21e3859b-3878-45fc-8fb3-7fef7ec43d5d">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Статистика по запросам СУБД (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Статистика по запросам СУБД (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Статистика по запросам СУБД (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

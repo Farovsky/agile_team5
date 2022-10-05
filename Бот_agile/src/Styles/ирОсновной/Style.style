@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<style:Style xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:style="http://g5.1c.ru/v8/dt/style">
+  <items xsi:type="style:ColorStyleItem">
+    <name>FormBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FormBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FormTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FormTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ButtonBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ButtonTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ButtonTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FieldBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FieldTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldSelectionBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FieldSelectionBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldSelectedTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FieldSelectedTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>FieldAlternativeBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.FieldAlternativeBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ToolTipBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ToolTipBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ToolTipTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ToolTipTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>SpecialTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.SpecialTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>NegativeTextColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.NegativeTextColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>BorderColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.BorderColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportHeaderBackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportHeaderBackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportGroup1BackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportGroup1BackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportGroup2BackColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportGroup2BackColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:ColorStyleItem">
+    <name>ReportLineColor</name>
+    <color xsi:type="core:ColorRef">
+      <color>Style.ReportLineColor</color>
+    </color>
+  </items>
+  <items xsi:type="style:BorderStyleItem">
+    <name>ControlBorder</name>
+    <border xsi:type="core:BorderRef">
+      <border>Style.ControlBorder</border>
+    </border>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>TextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.TextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>SmallTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.SmallTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>NormalTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.NormalTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>LargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.LargeTextFont</font>
+    </font>
+  </items>
+  <items xsi:type="style:FontStyleItem">
+    <name>ExtraLargeTextFont</name>
+    <font xsi:type="core:FontRef">
+      <font>Style.ExtraLargeTextFont</font>
+    </font>
+  </items>
+</style:Style>

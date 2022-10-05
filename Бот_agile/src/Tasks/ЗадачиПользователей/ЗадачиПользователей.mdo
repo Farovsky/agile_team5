@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Task xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e1eb47c-ffb5-4692-9efd-c146f1d93db4">
+  <producedTypes>
+    <objectType typeId="847917df-c279-431c-b9a2-85c67ae74917" valueTypeId="4a5ab300-d058-46c5-b40a-840239dced54"/>
+    <refType typeId="68a190bb-3e57-48a1-9017-fe20b2b69fbd" valueTypeId="9e01115d-4888-4ccc-96b7-5018e5ab5cd1"/>
+    <selectionType typeId="5386eb7c-860e-4c4a-9230-b2aa97f5d058" valueTypeId="e3bb784f-fe85-41a5-90e7-31ea0f8d5d14"/>
+    <listType typeId="456f1e01-7b8e-4548-8b55-8896c2cff67a" valueTypeId="ae3b8747-1457-4faa-86bb-0f4701783748"/>
+    <managerType typeId="082ee956-93bb-4920-b0e9-e20e8f472885" valueTypeId="d0a6386d-bbf4-42a9-9dad-23beb350da3f"/>
+  </producedTypes>
+  <name>ЗадачиПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Задачи пользователей</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Task.ЗадачиПользователей.StandardAttribute.Description</inputByString>
+  <inputByString>Task.ЗадачиПользователей.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>9</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <taskNumberAutoPrefix>DontUse</taskNumberAutoPrefix>
+  <descriptionLength>25</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <attributes uuid="cef42d5e-4b09-498e-bd4c-20f6681141c4">
+    <name>Ответ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответ</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Task>

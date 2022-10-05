@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e3458e1c-29c1-44c3-981d-08f1ef340a3e">
+  <name>ирРазвернутьВсе</name>
+  <synonym>
+    <key>ru</key>
+    <value>Развернуть все (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Развернуть все (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Развернуть все (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

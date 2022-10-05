@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a72577b8-211f-40be-bb34-05c6a3ffd205">
+  <name>ирПортативный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портативный (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Портативный (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Портативный (ИР)</value>
+  </synonym>
+  <comment>Заглушка для прохождения компиляции</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b11bacce-e28a-4154-ad06-d7fabb4dc3e7">
+  <name>ирЛоготип16х16</name>
+  <synonym>
+    <key>ru</key>
+    <value>Логотип 16х16 (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Логотип 16х16 (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Логотип 16х16 (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="323cda85-37ac-40ff-9b40-0e4f9fa80340">
+  <name>ирДобавитьАлгоритм</name>
+  <synonym>
+    <key>ru</key>
+    <value>Добавить алгоритм (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Добавить алгоритм (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Добавить алгоритм (ИР)</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>11</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

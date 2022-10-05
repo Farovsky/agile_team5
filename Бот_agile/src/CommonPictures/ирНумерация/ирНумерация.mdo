@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="89c7769e-992c-475d-b2f0-8b7531581721">
+  <name>ирНумерация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нумерация</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Нумерация</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Нумерация</value>
+  </synonym>
+</mdclass:CommonPicture>

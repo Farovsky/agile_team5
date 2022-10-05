@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87b92c28-f041-4909-b355-7ace986e7636">
+  <name>ирФлажок</name>
+  <synonym>
+    <key>ru</key>
+    <value>Флажок</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Флажок</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Флажок</value>
+  </synonym>
+</mdclass:CommonPicture>

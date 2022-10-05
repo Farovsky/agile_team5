@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ScheduledJob xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c9a85b4b-5d83-4901-8c30-eb1f11dbcc07">
+  <name>НапоминаниеОСтатусМитинге</name>
+  <synonym>
+    <key>ru</key>
+    <value>Напоминание о статус митинге</value>
+  </synonym>
+  <methodName>CommonModule.ФоновыеЗаданияСервер.НапоминаниеОСтатусМитинге</methodName>
+  <description>Напоминание о статус митинге</description>
+  <use>true</use>
+  <predefined>true</predefined>
+  <restartCountOnFailure>3</restartCountOnFailure>
+  <restartIntervalOnFailure>10</restartIntervalOnFailure>
+</mdclass:ScheduledJob>

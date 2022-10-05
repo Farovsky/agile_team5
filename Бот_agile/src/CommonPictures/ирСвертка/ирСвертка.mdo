@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="65fd10fc-43c7-4d09-b386-e1aaa216efaa">
+  <name>ирСвертка</name>
+  <synonym>
+    <key>ru</key>
+    <value>Свертка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Свертка (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Свертка (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

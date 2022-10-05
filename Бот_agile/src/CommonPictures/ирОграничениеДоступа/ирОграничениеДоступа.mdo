@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5786900-17e5-46ff-a682-30e13e1c70a3">
+  <name>ирОграничениеДоступа</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир ограничение доступа</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир ограничение доступа</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир ограничение доступа</value>
+  </synonym>
+</mdclass:CommonPicture>

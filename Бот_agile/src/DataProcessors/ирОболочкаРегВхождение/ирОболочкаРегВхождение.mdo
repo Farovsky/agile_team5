@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="789b84cb-d749-4e00-8594-aa549d0f3497">
+  <producedTypes>
+    <objectType typeId="2e2b8fb8-6817-4d1b-b766-53e6befc12bb" valueTypeId="aae1d9f7-6c24-4e56-a417-6ac8c063f8ea"/>
+    <managerType typeId="69862c5a-fd32-49ad-895f-2d98a0e4153f" valueTypeId="ebbd8dfd-77b9-43dd-a004-a7ec6e2e5025"/>
+  </producedTypes>
+  <name>ирОболочкаРегВхождение</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир оболочка рег вхождение</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир оболочка рег вхождение</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир оболочка рег вхождение</value>
+  </synonym>
+  <attributes uuid="78299212-1eeb-4b37-9c68-77dcb902f168">
+    <name>FirstIndex</name>
+    <synonym>
+      <key>ru</key>
+      <value>First index</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>First index</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>First index</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5e339ae5-ed3d-43f6-952e-8991e142ab16">
+    <name>Length</name>
+    <synonym>
+      <key>ru</key>
+      <value>Length</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Length</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Length</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="ffdd699e-6fa4-4dbc-b22b-1492db5dc35c">
+    <name>SubMatches</name>
+    <synonym>
+      <key>ru</key>
+      <value>Sub matches</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sub matches</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Sub matches</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3f514cbe-c115-4b2e-bf89-e446a634ba5c">
+    <name>Value</name>
+    <synonym>
+      <key>ru</key>
+      <value>Value</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Value</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Value</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

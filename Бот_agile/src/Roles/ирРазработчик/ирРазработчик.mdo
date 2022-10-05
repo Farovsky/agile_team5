@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8098f380-05ab-4143-80e6-e3c6ad0b885c">
+  <name>ирРазработчик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Разработчик (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Разработчик (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Разработчик (ИР)</value>
+  </synonym>
+  <comment>Предоставляет возможность интерактивного вызова инструментов. Основная роль подсистемы.</comment>
+</mdclass:Role>

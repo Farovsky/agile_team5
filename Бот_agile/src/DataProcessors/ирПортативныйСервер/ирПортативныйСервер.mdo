@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2b4a6c9a-3f5e-4a15-9039-edbcd521b8c4">
+  <producedTypes>
+    <objectType typeId="00124d10-7cf7-4a96-a2e4-af5e646cda92" valueTypeId="42c5e7bc-54f7-4bd9-b85d-c448ba2596f9"/>
+    <managerType typeId="2086faeb-c34f-4398-a107-f0df47376469" valueTypeId="eb3186f7-76ec-4620-9fec-119de26f563f"/>
+  </producedTypes>
+  <name>ирПортативныйСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Портативный сервер (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Портативный сервер (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Портативный сервер (ИР)</value>
+  </synonym>
+</mdclass:DataProcessor>

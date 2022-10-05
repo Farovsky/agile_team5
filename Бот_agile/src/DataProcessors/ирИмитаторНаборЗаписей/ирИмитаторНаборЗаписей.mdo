@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="17fb3ee0-69f0-49bf-ba6b-e1b18276cf01">
+  <producedTypes>
+    <objectType typeId="ddb3a036-491b-4fc4-af29-2e36e5e1fdd6" valueTypeId="f875392c-eb64-439e-b2b4-60af9f041e33"/>
+    <managerType typeId="dc81e088-bdf6-44a4-9e8a-ff9312c45245" valueTypeId="ef12d4bb-5708-4594-ab55-beb0677b8739"/>
+  </producedTypes>
+  <name>ирИмитаторНаборЗаписей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Набор записей</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Набор записей</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Набор записей</value>
+  </synonym>
+  <comment>Вспомогательная</comment>
+  <attributes uuid="6f744e26-b56e-4e5a-a653-e35e51583408">
+    <name>Данные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Данные</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Данные</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Данные</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f46d4787-9254-4945-a076-0c791ea3597f">
+    <name>ДополнительныеСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительные свойства</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Дополнительные свойства</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Дополнительные свойства</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="263c5782-d95e-42cc-9581-218fabfa1c44">
+    <name>ОбменДанными</name>
+    <synonym>
+      <key>ru</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Обмен данными</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="c07519be-f80f-4e1c-b0fd-7e81b17c2716">
+    <name>Отбор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Отбор</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Отбор</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+</mdclass:DataProcessor>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ebabfe9-77e2-4af9-be2d-c40296eae9b3">
+  <name>ирHttp</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ир http</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Ир http</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Ир http</value>
+  </synonym>
+  <availabilityForChoice>true</availabilityForChoice>
+  <availabilityForAppearance>true</availabilityForAppearance>
+</mdclass:CommonPicture>

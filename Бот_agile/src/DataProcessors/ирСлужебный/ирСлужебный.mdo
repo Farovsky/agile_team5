@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b201545-b5ac-4dce-a8ef-0dda74fc5a78">
+  <producedTypes>
+    <objectType typeId="79d48e23-194a-4113-8830-57e85d1c2111" valueTypeId="7093a7a6-d3c3-4a5e-b132-5aa210e51407"/>
+    <managerType typeId="21b5f01d-292e-48e9-baf0-ae280dacb4ea" valueTypeId="27aedc40-a056-4829-b4b1-f512122bd986"/>
+  </producedTypes>
+  <name>ирСлужебный</name>
+  <synonym>
+    <key>ru</key>
+    <value>Служебный (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Служебный (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Служебный (ИР)</value>
+  </synonym>
+  <comment>Вспомогательная</comment>
+</mdclass:DataProcessor>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f9415a4b-138b-44b8-b93a-2eeeec3e9969">
+  <producedTypes>
+    <objectType typeId="cd2cb27c-d1e1-4742-a835-9242c56d2e27" valueTypeId="ab15b84b-4b8a-4dde-baa2-116045c9a1e6"/>
+    <managerType typeId="b2731649-dffe-47aa-9836-48e78634402d" valueTypeId="31fd9752-2e2c-4b69-bcac-56fc6856bff4"/>
+  </producedTypes>
+  <name>ирАнализЗамераПроизводительности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ замера производительности (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Анализ замера производительности (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Анализ замера производительности (ИР)</value>
+  </synonym>
+  <defaultForm>Report.ирАнализЗамераПроизводительности.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ирАнализЗамераПроизводительности.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <attributes uuid="1737a873-c483-4e1e-8c26-30a48ae9bc29">
+    <name>ВстроитьИменаМетодовВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Встроить имена методов в файл</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Встроить имена методов в файл</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Встроить имена методов в файл</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="4ac7e5c6-e1b3-44ed-aad0-b769e762e7cc">
+    <name>ИзвлекатьИменаМетодов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Извлекать имена методов</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Извлекать имена методов</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Извлекать имена методов</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="082988b6-2715-42f5-97a1-cdacf8204d9a">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="5898cdca-dd11-4207-91a0-baa6224be29d">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="9170ca05-648f-4362-9104-54a0495e45b8">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Анализ замера производительности (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Анализ замера производительности (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Анализ замера производительности (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирРазработка</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:Report>

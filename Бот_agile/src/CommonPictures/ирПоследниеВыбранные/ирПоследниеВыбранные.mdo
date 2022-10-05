@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="043c1a42-284e-4d5e-a92e-5b51f5563cf4">
+  <name>ирПоследниеВыбранные</name>
+  <synonym>
+    <key>ru</key>
+    <value>Последние выбранные</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Последние выбранные</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Последние выбранные</value>
+  </synonym>
+</mdclass:CommonPicture>

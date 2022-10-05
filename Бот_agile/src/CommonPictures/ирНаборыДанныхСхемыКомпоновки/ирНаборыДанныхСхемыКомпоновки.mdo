@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4282a10a-6e9f-47e7-821e-8bbd7f8e58b2">
+  <name>ирНаборыДанныхСхемыКомпоновки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Наборы данных схемы компоновки</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Наборы данных схемы компоновки</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Наборы данных схемы компоновки</value>
+  </synonym>
+  <transparentPixel>
+    <x>14</x>
+    <y>12</y>
+  </transparentPixel>
+</mdclass:CommonPicture>

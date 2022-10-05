@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c207e40-d78b-470e-80bb-ab7828b2988b">
+  <name>ирСоставнойТип</name>
+  <synonym>
+    <key>ru</key>
+    <value>Составной тип (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Составной тип (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Составной тип (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

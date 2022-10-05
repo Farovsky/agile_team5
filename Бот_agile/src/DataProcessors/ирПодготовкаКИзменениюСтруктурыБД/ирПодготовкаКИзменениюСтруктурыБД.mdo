@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d816f8b5-9624-4be5-8039-b62d2ced8512">
+  <producedTypes>
+    <objectType typeId="e8073afa-e45f-48d6-b504-2b122b7ad7c1" valueTypeId="4e91a4ec-50b5-407b-90d9-65b535d04a84"/>
+    <managerType typeId="5fac45f6-5372-4afc-8649-da177826b2f5" valueTypeId="51b98d18-7506-4235-a3ce-3c152c0508e0"/>
+  </producedTypes>
+  <name>ирПодготовкаКИзменениюСтруктурыБД</name>
+  <synonym>
+    <key>ru</key>
+    <value>Подготовка к изменению структуры БД (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Подготовка к изменению структуры БД (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Подготовка к изменению структуры БД (ИР)</value>
+  </synonym>
+  <comment> </comment>
+  <defaultForm>DataProcessor.ирПодготовкаКИзменениюСтруктурыБД.Form.Форма</defaultForm>
+  <attributes uuid="04a6d65b-2756-4b12-adad-7896b264103b">
+    <name>ВыполнятьВТранзакции</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выполнять в транзакции</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Выполнять в транзакции</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Выполнять в транзакции</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="e6534809-a830-48b9-8044-b2b8e982a214">
+    <name>ГруппыТекущегоРегистра</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группы текущего регистра</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Группы текущего регистра</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Группы текущего регистра</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="eaeb3298-851a-4aed-b472-35ad855cd88d">
+    <name>ЗатрагиваемыеЭлементыТекущегоПланаВидовХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Затрагиваемые элементы текущего плана видов характеристик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Затрагиваемые элементы текущего плана видов характеристик</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Затрагиваемые элементы текущего плана видов характеристик</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="82ed5929-2bba-416a-ba46-c921bb844cbe">
+    <name>ИзменяемыеИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяемые измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменяемые измерения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменяемые измерения</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="1d436f12-9d24-427e-ac23-f046cb8244e4">
+    <name>УдаляемыеТипы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Удаляемые типы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Удаляемые типы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Удаляемые типы</value>
+    </synonym>
+    <type>
+      <types>TypeDescription</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="efe0cb85-98c1-48ba-9b3e-127779824024">
+    <name>ЭлементыТекущейГруппы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элементы текущей группы</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Элементы текущей группы</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Элементы текущей группы</value>
+    </synonym>
+    <type>
+      <types>ValueTable</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="accde806-ca5f-42e6-9faf-01c246a3a6f7">
+    <producedTypes>
+      <objectType typeId="50e41868-80b3-4400-8531-c3a9e4889410" valueTypeId="7cd8d475-d0a3-4575-ad62-2356b57501bd"/>
+      <rowType typeId="2ddfcd14-e4f0-4b01-9f68-a623ab71bbc4" valueTypeId="c200cfd4-b63c-4122-9c52-01678698bff4"/>
+    </producedTypes>
+    <name>ПроблемныеРегистры</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемные регистры</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проблемные регистры</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проблемные регистры</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="dea5910a-4ed8-49ee-99a5-f8ded933b3b5">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="e672354f-176c-41af-9317-0acc45e5179b">
+      <name>КоличествоГрупп</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество групп</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Количество групп</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Количество групп</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5d7d12c2-a4a9-43a9-85c8-68a0f8bdf550">
+      <name>ЗапросВыборкиСоставаГруппы</name>
+      <synonym>
+        <key>ru</key>
+        <value>Запрос выборки состава группы</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Запрос выборки состава группы</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Запрос выборки состава группы</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers/>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="58348d85-6628-4d2c-82f8-d225051a467d">
+    <producedTypes>
+      <objectType typeId="9de6b320-8fb6-4779-8d8f-526555a26513" valueTypeId="999f757e-89fb-4d63-be08-764de5dea6e7"/>
+      <rowType typeId="2c7b2fae-62ec-47fb-9adb-7cab5d592fff" valueTypeId="68950adf-aa0b-457d-bed2-dfb64743b66c"/>
+    </producedTypes>
+    <name>ПроблемныеПланыВидовХарактеристик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проблемные планы видов характеристик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Проблемные планы видов характеристик</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Проблемные планы видов характеристик</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="12431c16-8c28-4cea-a223-19391e740282">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="5d45bdec-b5ed-4779-abf3-a80769742f1f">
+      <name>КоличествоЗатрагиваемыхЭлементов</name>
+      <synonym>
+        <key>ru</key>
+        <value>Количество затрагиваемых элементов</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Количество затрагиваемых элементов</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Количество затрагиваемых элементов</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+  </tabularSections>
+  <forms uuid="f10849b4-15bb-42ac-a4d4-9455d73d853d">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <comment> </comment>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0c5fa2e6-5326-4148-866f-41208ac3fbe8">
+    <name>ИзменяемыеИзмерения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Изменяемые измерения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Изменяемые измерения</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Изменяемые измерения</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ff4ae201-9ff2-48ab-9a89-c0ce00c035dc">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Подготовка к изменению структуры БД (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Подготовка к изменению структуры БД (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Подготовка к изменению структуры БД (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>

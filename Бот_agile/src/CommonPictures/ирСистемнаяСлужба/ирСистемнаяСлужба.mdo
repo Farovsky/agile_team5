@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0aafceb2-c4e6-45eb-b72b-3bf2d69a933b">
+  <name>ирСистемнаяСлужба</name>
+  <synonym>
+    <key>ru</key>
+    <value>Системая служба (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Системая служба (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Системая служба (ИР)</value>
+  </synonym>
+</mdclass:CommonPicture>

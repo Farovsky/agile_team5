@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60b2353c-3e90-449d-a128-029e177467ab">
+  <producedTypes>
+    <objectType typeId="2b126fc8-6ad9-473a-805d-2b43f2ba2989" valueTypeId="2f7e1939-4591-42dc-b1e4-fbfac7b79717"/>
+    <managerType typeId="fde6ef56-fa97-4d81-991c-9fddf5964a8c" valueTypeId="59c7faf8-646b-4a94-b983-718f18bbe141"/>
+  </producedTypes>
+  <name>ирАнализДанных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Анализ данных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Анализ данных (ИР)</value>
+  </synonym>
+  <synonym>
+    <key>uk</key>
+    <value>Анализ данных (ИР)</value>
+  </synonym>
+  <defaultForm>DataProcessor.ирАнализДанных.Form.Форма</defaultForm>
+  <attributes uuid="0effcdbf-ba52-4409-b8b5-af36e3b75d93">
+    <name>ТипАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип анализа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Тип анализа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Тип анализа</value>
+    </synonym>
+    <type/>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <tabularSections uuid="1c954f2c-a6c2-4a67-a0be-d821aad1f5ad">
+    <producedTypes>
+      <objectType typeId="ff580bd2-8aaf-44d1-b07d-e6f045f66a57" valueTypeId="28ea83b4-7414-4eb4-8227-f8f9a661ac1f"/>
+      <rowType typeId="b99cbbd7-9ae3-4b26-8e16-eac5a90de285" valueTypeId="01916552-f86e-42a9-b030-3ca73391cba0"/>
+    </producedTypes>
+    <name>КолонкиАнализаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Колонки анализа данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Колонки анализа данных</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Колонки анализа данных</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="42313bc5-c61a-4e17-83a7-4821d526b3ff">
+      <name>Вес</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вес</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вес</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Вес</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="aa68ef36-9df6-4d94-86f4-b7eadab95085">
+      <name>ВидДанных</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид данных</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Вид данных</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Вид данных</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="5b802aec-6635-4c48-91b9-f34480393d4c">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Имя</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="3f534dfc-1465-46e7-a559-57a10c890779">
+      <name>ТипКолонки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Тип колонки</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Тип колонки</value>
+      </synonym>
+      <synonym>
+        <key>uk</key>
+        <value>Тип колонки</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>100</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+  </tabularSections>
+  <forms uuid="a85af853-2ba0-44a4-9513-8de5fcfef3fe">
+    <name>Форма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Форма</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Форма</value>
+    </synonym>
+    <formType>Ordinary</formType>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="48c1a4fa-da5a-427e-91d2-32c4dc40d30d">
+    <name>МакетОбщаяСтатистика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет общая статистика</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Макет общая статистика</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Макет общая статистика</value>
+    </synonym>
+  </templates>
+  <templates uuid="d7bd6129-cd52-4b72-9fa2-b93f4d2a2d48">
+    <name>МакетКластерныйАнализ</name>
+    <synonym>
+      <key>ru</key>
+      <value>МакетКластерныйАнализ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МакетКластерныйАнализ</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>МакетКластерныйАнализ</value>
+    </synonym>
+  </templates>
+  <templates uuid="437a97d1-2514-4589-87f1-01a3ee8f0330">
+    <name>МакетДеревоРешений</name>
+    <synonym>
+      <key>ru</key>
+      <value>МакетДеревоРешений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МакетДеревоРешений</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>МакетДеревоРешений</value>
+    </synonym>
+  </templates>
+  <templates uuid="d74c2006-b7e0-4d67-822c-6fd2e74db003">
+    <name>МакетПоискАссоциаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>МакетПоискАссоциаций</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МакетПоискАссоциаций</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>МакетПоискАссоциаций</value>
+    </synonym>
+  </templates>
+  <templates uuid="8ae4be30-34c8-4895-9b88-e1868c57fd1b">
+    <name>МакетПоискПоследовательностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>МакетПоискПоследовательностей</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>МакетПоискПоследовательностей</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>МакетПоискПоследовательностей</value>
+    </synonym>
+  </templates>
+  <templates uuid="bee61835-3afb-4173-8b7c-c402a41e8cd2">
+    <name>ТипыАнализа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Типы анализа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Типы анализа</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Типы анализа</value>
+    </synonym>
+  </templates>
+  <commands uuid="2519012b-0e5b-4b63-bb0a-3fafda6eef0d">
+    <name>Команда1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Поиск битых ссылок (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Поиск битых ссылок (ИР)</value>
+    </synonym>
+    <synonym>
+      <key>uk</key>
+      <value>Поиск битых ссылок (ИР)</value>
+    </synonym>
+    <group>CommandGroup.ирАдминистрирование</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+  </commands>
+</mdclass:DataProcessor>
