@@ -22,7 +22,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Конфигурация</name>
+		<name>Configuration.Agile_bot</name>
 		<right>
 			<name>TechnicalSpecialistMode</name>
 			<value>true</value>

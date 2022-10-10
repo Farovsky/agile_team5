@@ -572,7 +572,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Конфигурация</name>
+		<name>Configuration.Agile_bot</name>
 		<right>
 			<name>ThinClient</name>
 			<value>true</value>

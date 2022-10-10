@@ -1249,7 +1249,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.Конфигурация</name>
+		<name>Configuration.Agile_bot</name>
 		<right>
 			<name>ExclusiveMode</name>
 			<value>true</value>

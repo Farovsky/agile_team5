@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="73796078-261a-4352-aa8d-bcfbedb6017f">
-  <name>Конфигурация</name>
+  <name>Agile_bot</name>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="68ae8f21-2468-4908-a4c4-b5c08287c9d0"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="876d27c1-78f6-49dc-869e-9331bc2ecdc5"/>
   <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="bbf4292b-e125-4881-80f7-09879c2559a4"/>
