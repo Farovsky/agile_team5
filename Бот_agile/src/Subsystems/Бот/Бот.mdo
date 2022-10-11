@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="739b8c93-2bdc-4024-b7ee-69863196557d">
-  <name>Администрирование</name>
+  <name>Бот</name>
   <synonym>
     <key>ru</key>
-    <value>Администрирование</value>
+    <value>Бот</value>
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
@@ -11,4 +11,5 @@
   <content>Enum.РолиПользователей</content>
   <content>DataProcessor.TelegramGetUpdates</content>
   <content>BusinessProcess.СтатусМитинг</content>
+  <content>Task.ЗадачиПользователей</content>
 </mdclass:Subsystem>

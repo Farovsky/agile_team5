@@ -12,6 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <version>1.0.1.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -54,7 +55,7 @@
     </synonym>
     <languageCode>uk</languageCode>
   </languages>
-  <subsystems>Subsystem.Администрирование</subsystems>
+  <subsystems>Subsystem.Бот</subsystems>
   <subsystems>Subsystem.ИнструментыРазработчикаTormozit</subsystems>
   <styles>Style.ирОсновной</styles>
   <commonPictures>CommonPicture.ирADO</commonPictures>
