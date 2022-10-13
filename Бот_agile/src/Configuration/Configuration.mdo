@@ -343,6 +343,7 @@
   <reports>Report.ирОтсутствующиеИндексыСУБД</reports>
   <reports>Report.ирПодпискиНаСобытия</reports>
   <reports>Report.ирСтатистикаПоЗапросамСУБД</reports>
+  <reports>Report.Отчет2</reports>
   <dataProcessors>DataProcessor.ирАнализДанных</dataProcessors>
   <dataProcessors>DataProcessor.ирАнализЖурналаРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ирАнализТехножурнала</dataProcessors>
