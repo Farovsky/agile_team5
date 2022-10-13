@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13e261fc-7d70-467a-ad3b-80e0a79df029">
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="13e261fc-7d70-467a-ad3b-80e0a79df029">
   <producedTypes>
     <objectType typeId="a8270c0d-02cf-4877-bb9b-9d0c3e45d992" valueTypeId="074d396e-2cfb-43ec-b733-f8d5afebe726"/>
     <managerType typeId="267194da-5ab2-4704-b824-292310f875be" valueTypeId="94a4ad6c-66e8-4a89-9417-c0807a5ff3a9"/>
@@ -10,4 +10,19 @@
     <value>Отчет2</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="a4ff7575-4a65-43ba-b10f-89904b0da0fe">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
 </mdclass:Report>
