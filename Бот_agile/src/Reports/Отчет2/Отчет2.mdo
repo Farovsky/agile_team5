@@ -10,6 +10,21 @@
     <value>Отчет2</value>
   </synonym>
   <useStandardCommands>true</useStandardCommands>
+  <attributes uuid="a4ff7575-4a65-43ba-b10f-89904b0da0fe">
+    <name>Реквизит</name>
+    <synonym>
+      <key>ru</key>
+      <value>Реквизит</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
   <attributes uuid="e79e0802-d80d-44a1-8ca5-d7e986827efb">
     <name>Реквизит2</name>
     <synonym>
