@@ -345,6 +345,7 @@
   <reports>Report.ирСтатистикаПоЗапросамСУБД</reports>
   <reports>Report.Отчет2</reports>
   <reports>Report.Отчет3</reports>
+  <reports>Report.ПоказателиВзаимодействияСБотом</reports>
   <dataProcessors>DataProcessor.ирАнализДанных</dataProcessors>
   <dataProcessors>DataProcessor.ирАнализЖурналаРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.ирАнализТехножурнала</dataProcessors>
