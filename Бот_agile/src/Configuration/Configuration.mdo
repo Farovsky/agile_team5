@@ -69,6 +69,7 @@
   <documents>Document.ВзаимодействияСБотом</documents>
   <enums>Enum.РолиПользователей</enums>
   <enums>Enum.ВидыВзаимодействий</enums>
+  <reports>Report.ПоказателиВзаимодействияСБотом</reports>
   <informationRegisters>InformationRegister.НастройкиИнтеграцииTelegram</informationRegisters>
   <businessProcesses>BusinessProcess.СтатусМитинг</businessProcesses>
   <tasks>Task.ЗадачиПользователей</tasks>

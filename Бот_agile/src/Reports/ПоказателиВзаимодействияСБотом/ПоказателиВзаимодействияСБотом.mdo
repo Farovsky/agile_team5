@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="812c0921-8166-4397-9085-f3261ddad6e7">
+  <producedTypes>
+    <objectType typeId="a0f82ed2-9464-4f19-806b-6113f42fe8f6" valueTypeId="ed7cba81-3ae7-4602-a0cd-ce435522defa"/>
+    <managerType typeId="27630ab1-4388-4c8d-89f3-0777ff0e343b" valueTypeId="331c2f4d-5861-4fbf-8297-04d4d88f16c8"/>
+  </producedTypes>
+  <name>ПоказателиВзаимодействияСБотом</name>
+  <synonym>
+    <key>ru</key>
+    <value>Показатели взаимодействия с ботом</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.ПоказателиВзаимодействияСБотом.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <templates uuid="ccbaf55b-1467-42a6-9acf-b91c1dc66655">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
