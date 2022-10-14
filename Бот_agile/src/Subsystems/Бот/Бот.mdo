@@ -9,7 +9,6 @@
   <includeInCommandInterface>true</includeInCommandInterface>
   <content>Catalog.Пользователи</content>
   <content>Enum.РолиПользователей</content>
-  <content>DataProcessor.TelegramGetUpdates</content>
   <content>BusinessProcess.СтатусМитинг</content>
   <content>Task.ЗадачиПользователей</content>
 </mdclass:Subsystem>
