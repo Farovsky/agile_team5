@@ -407,6 +407,7 @@
   <dataProcessors>DataProcessor.ирУправлениеСлужбамиСервера1С</dataProcessors>
   <dataProcessors>DataProcessor.ирУстановщикРасширения</dataProcessors>
   <dataProcessors>DataProcessor.TelegramGetUpdates</dataProcessors>
+  <dataProcessors>DataProcessor.РегламентныеФоновыеЗадания</dataProcessors>
   <informationRegisters>InformationRegister.НастройкиИнтеграцииTelegram</informationRegisters>
   <businessProcesses>BusinessProcess.СтатусМитинг</businessProcesses>
   <tasks>Task.ЗадачиПользователей</tasks>
