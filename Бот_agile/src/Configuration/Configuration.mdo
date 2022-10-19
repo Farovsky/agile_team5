@@ -64,7 +64,6 @@
   <scheduledJobs>ScheduledJob.TelegramGetUpdates</scheduledJobs>
   <scheduledJobs>ScheduledJob.НапоминаниеОСтатусМитинге</scheduledJobs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <catalogs>Catalog.РолиПользователей</catalogs>
   <documents>Document.ВзаимодействияСБотом</documents>
   <enums>Enum.РолиПользователей</enums>
   <enums>Enum.ВидыВзаимодействий</enums>
