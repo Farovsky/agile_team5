@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="55be7933-acba-4943-9c14-c10691b02e3c">
+  <producedTypes>
+    <objectType typeId="775120b2-c037-4248-ba00-d49a71be980f" valueTypeId="d126453c-6350-4645-859c-cf4db8de5fc0"/>
+    <managerType typeId="b7b5d119-888a-49dd-ab7f-1845a4aa560d" valueTypeId="245c42b0-1886-4cb6-987b-cb0123096125"/>
+  </producedTypes>
+  <name>РегламентныеФоновыеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Регламентные и фоновые задания</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.РегламентныеФоновыеЗадания.Form.ФормаПроцессы</defaultForm>
+  <attributes uuid="4231edbf-7026-4825-ad79-08b5793011db">
+    <name>АктивныеЗадания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активные задания</value>
+    </synonym>
+    <type>
+      <types>ValueList</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="afc3ebf7-0cf2-4f0d-b13f-082b65b14889">
+    <name>ФормаПроцессы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Процессы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>
