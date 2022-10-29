@@ -60,7 +60,6 @@
   <commonModules>CommonModule.КоннекторHTTP</commonModules>
   <commonModules>CommonModule.ФоновыеЗаданияСервер</commonModules>
   <commonModules>CommonModule.ИнтеграцияСМессенджерами</commonModules>
-  <commonModules>CommonModule.ОбщегоНазначенияКлиентСервер</commonModules>
   <httpServices>HTTPService.Telegram</httpServices>
   <scheduledJobs>ScheduledJob.TelegramGetUpdates</scheduledJobs>
   <scheduledJobs>ScheduledJob.НапоминаниеОСтатусМитинге</scheduledJobs>
