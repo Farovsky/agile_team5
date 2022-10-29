@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2ce1f908-6e94-4332-a7a0-7c6b0fdc4418">
+  <producedTypes>
+    <objectType typeId="665a0d58-cf57-4b82-80ca-daee4eb080ba" valueTypeId="8bd7fca2-8393-4472-99d5-7b19bc276b9e"/>
+    <refType typeId="2e204e6b-ba02-4d49-a595-d286d93e3b2f" valueTypeId="4e9ef12d-a065-428e-83a0-6a1c105a8381"/>
+    <selectionType typeId="912a373e-7fb3-4d73-8b1c-f35e6046d34f" valueTypeId="4d90c23c-a2c1-41af-953a-90988636d8cd"/>
+    <listType typeId="48164533-de19-4253-adcb-9759396d84f9" valueTypeId="255c59a0-7164-426c-a47b-72f002a0e681"/>
+    <managerType typeId="b450cd20-fef5-40aa-b9ce-2ea6301576df" valueTypeId="f4d06dd9-62e4-4f98-8893-aabab884f0b9"/>
+  </producedTypes>
+  <name>Боты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Боты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Боты.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Боты.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultListForm>Catalog.Боты.Form.ФормаСписка</defaultListForm>
+  <attributes uuid="0d8234e3-96bd-4290-8c96-c10c53a3c891">
+    <name>Токен</name>
+    <synonym>
+      <key>ru</key>
+      <value>Токен</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="239a5c19-2277-41ae-a514-2e553ff03e23">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

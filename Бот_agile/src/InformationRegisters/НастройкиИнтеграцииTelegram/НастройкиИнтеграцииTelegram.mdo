@@ -78,18 +78,13 @@
       <value>Бот</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>30</length>
-      </stringQualifiers>
+      <types>CatalogRef.Боты</types>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
   </dimensions>
   <dimensions uuid="729f5832-8ade-4349-b3a4-308b44647665">
     <name>Настройка</name>

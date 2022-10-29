@@ -63,10 +63,12 @@
   <httpServices>HTTPService.Telegram</httpServices>
   <scheduledJobs>ScheduledJob.TelegramGetUpdates</scheduledJobs>
   <scheduledJobs>ScheduledJob.НапоминаниеОСтатусМитинге</scheduledJobs>
+  <catalogs>Catalog.Боты</catalogs>
+  <catalogs>Catalog.Команды</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
   <documents>Document.ВзаимодействияСБотом</documents>
-  <enums>Enum.РолиПользователей</enums>
   <enums>Enum.ВидыВзаимодействий</enums>
+  <enums>Enum.РолиПользователей</enums>
   <reports>Report.ПоказателиВзаимодействияСБотом</reports>
   <dataProcessors>DataProcessor.РегламентныеФоновыеЗадания</dataProcessors>
   <informationRegisters>InformationRegister.НастройкиИнтеграцииTelegram</informationRegisters>

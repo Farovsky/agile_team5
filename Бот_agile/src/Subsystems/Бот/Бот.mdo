@@ -11,4 +11,9 @@
   <content>Enum.РолиПользователей</content>
   <content>BusinessProcess.СтатусМитинг</content>
   <content>Task.ЗадачиПользователей</content>
+  <content>Catalog.Команды</content>
+  <content>Report.ПоказателиВзаимодействияСБотом</content>
+  <content>Catalog.Боты</content>
+  <content>DataProcessor.РегламентныеФоновыеЗадания</content>
+  <content>InformationRegister.НастройкиИнтеграцииTelegram</content>
 </mdclass:Subsystem>

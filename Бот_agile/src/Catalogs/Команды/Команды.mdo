@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="238aa3a1-8d23-45b2-8cba-af164924e487">
+  <producedTypes>
+    <objectType typeId="e99cb6db-5c08-4696-8f47-f32d8378e7ad" valueTypeId="1070009b-a8ef-493d-9317-48947815bc71"/>
+    <refType typeId="c708f459-3bf4-418e-a906-4d34f110e971" valueTypeId="f059c4bd-d9cc-4358-87a2-3b5b9613d2d5"/>
+    <selectionType typeId="ad849ad0-ea08-4343-9199-665e42e5a69f" valueTypeId="cc0d9384-d984-429b-89e8-98abc3e43245"/>
+    <listType typeId="8c45a05f-e91b-4f4e-b827-a7010bf08674" valueTypeId="9cd0c89b-d626-4407-becf-55c65fd68dd8"/>
+    <managerType typeId="ae0f46de-6d59-488a-95b1-82e6eabd78ed" valueTypeId="fe24877d-24d6-467f-bad7-5771d31b7778"/>
+  </producedTypes>
+  <name>Команды</name>
+  <synonym>
+    <key>ru</key>
+    <value>Команды</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Команды.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Команды.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Команды</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="100f5ba1-5b6a-4bbd-93d8-3ac8b475970c">
+    <name>Бот</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бот</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Боты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+</mdclass:Catalog>
