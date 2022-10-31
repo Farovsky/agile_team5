@@ -49,6 +49,24 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="22628674-e40c-4de6-af2d-ca7ac1426a3c">
+    <name>АдресWebhook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес webhook</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>100</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="239a5c19-2277-41ae-a514-2e553ff03e23">
     <name>ФормаСписка</name>
     <synonym>
@@ -58,4 +76,22 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <commands uuid="1c7e6843-ecfa-43e0-929a-42ea143d427c">
+    <name>УстановитьWebhook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить webhook</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
+  <commands uuid="999ee774-f9fd-4225-97c3-648d319afebc">
+    <name>ПроверкаСтатусаWebHook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Проверка статуса web hook</value>
+    </synonym>
+    <group>ActionsPanelTools</group>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>
