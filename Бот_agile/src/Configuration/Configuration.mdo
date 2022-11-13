@@ -12,7 +12,7 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
-  <version>1.0.1.0</version>
+  <version>1.1.0.0</version>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -72,6 +72,7 @@
   <reports>Report.ПоказателиВзаимодействияСБотом</reports>
   <dataProcessors>DataProcessor.РегламентныеФоновыеЗадания</dataProcessors>
   <informationRegisters>InformationRegister.НастройкиИнтеграцииTelegram</informationRegisters>
+  <informationRegisters>InformationRegister.ПриглашенияВКоманду</informationRegisters>
   <businessProcesses>BusinessProcess.СтатусМитинг</businessProcesses>
   <tasks>Task.ЗадачиПользователей</tasks>
 </mdclass:Configuration>

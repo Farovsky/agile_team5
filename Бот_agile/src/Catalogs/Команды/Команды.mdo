@@ -34,6 +34,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Команды.Form.ФормаЭлемента</defaultObjectForm>
   <attributes uuid="100f5ba1-5b6a-4bbd-93d8-3ac8b475970c">
     <name>Бот</name>
     <synonym>
@@ -49,4 +50,25 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="71007958-3ae1-43a5-9822-77eda446a724">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="5a8a5c9f-60b7-4aad-bcb4-a057b7411828">
+    <name>ПригласитьПользователя</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пригласить пользователя</value>
+    </synonym>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType>
+      <types>CatalogRef.Команды</types>
+    </commandParameterType>
+    <representation>Auto</representation>
+  </commands>
 </mdclass:Catalog>

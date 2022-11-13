@@ -17,6 +17,12 @@
 		<field xsi:type="DataSetFieldField">
 			<dataPath>БизнесПроцесс</dataPath>
 			<field>БизнесПроцесс</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Отчет</v8:content>
+				</v8:item>
+			</title>
 		</field>
 		<field xsi:type="DataSetFieldField">
 			<dataPath>Наименование</dataPath>
@@ -320,7 +326,7 @@
 	</totalField>
 	<totalField>
 		<dataPath>Ответ</dataPath>
-		<expression>""</expression>
+		<expression>Сумма(Выбор Когда Вопрос = "Какие проблемы?" И НЕ( Ответ Подобно "нет" ИЛИ Ответ Подобно "Нет" ИЛИ Ответ = "") Тогда  1 Когда (Вопрос = "Что будешь делать сегодня?" ИЛИ Вопрос = "Что делал вчера?")  И Ответ &lt;&gt; "" Тогда 1 Иначе 0 Конец)</expression>
 	</totalField>
 	<parameter>
 		<name>КонецПериода</name>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1a95f711-073e-4f09-95b7-96af72cc0c61">
+  <producedTypes>
+    <selectionType typeId="fd6e60a6-dfc1-4908-822d-53e364cb3139" valueTypeId="1dd89e6b-57a9-4dc0-89f7-e52ea2683b6b"/>
+    <listType typeId="8016f85c-f35e-470c-98b2-55729d77bba7" valueTypeId="7e90de6c-3044-4eb0-af75-f30c97a3fd88"/>
+    <managerType typeId="f21f1949-1545-41da-807f-378f3ebe63e7" valueTypeId="a86034b7-1b52-4d0a-859a-b69dd5779f78"/>
+    <recordSetType typeId="08a7b76b-18f2-4032-b9ae-01fcbcd2f2b9" valueTypeId="f60cd807-0226-4f26-b6b7-38e899a76906"/>
+    <recordKeyType typeId="9deb3299-d5a3-450b-9b83-13c0e2fee276" valueTypeId="356a74aa-0ea7-4a76-a66d-99f2ef6659ae"/>
+    <recordType typeId="336ddfbb-9936-4c3c-8888-b8dc54a9574e" valueTypeId="5a6d6964-df48-4f25-8f6c-96929ac70338"/>
+    <recordManagerType typeId="0e653aff-078b-465a-b554-1f47f8ec763d" valueTypeId="fcd27ffb-d4ba-4f91-ae25-eb1fc7ad10cc"/>
+  </producedTypes>
+  <name>ПриглашенияВКоманду</name>
+  <synonym>
+    <key>ru</key>
+    <value>Приглашения в команду</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Second</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="e3409828-a598-4b84-a35e-e6da1c72dce8">
+    <name>username</name>
+    <synonym>
+      <key>ru</key>
+      <value>Username Telegram</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </resources>
+  <attributes uuid="a0e31037-56b4-473a-aa37-0235867c48ba">
+    <name>ПользовательИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Пригласил</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>50</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="98348831-e1dc-4497-93dc-1a757055ee0e">
+    <name>Команда</name>
+    <synonym>
+      <key>ru</key>
+      <value>Команда</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Команды</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

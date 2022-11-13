@@ -30,6 +30,7 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Боты.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Боты.Form.ФормаСписка</defaultListForm>
   <attributes uuid="0d8234e3-96bd-4290-8c96-c10c53a3c891">
     <name>Токен</name>
@@ -67,11 +68,57 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="cacbceba-092a-4a9b-aed1-10a942d1f680">
+    <name>Url</name>
+    <synonym>
+      <key>ru</key>
+      <value>Url</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c1be75d7-79ff-4512-8369-a2697cad9348">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="239a5c19-2277-41ae-a514-2e553ff03e23">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f455f805-d541-4ee6-a067-b8b831ba8510">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -82,7 +129,9 @@
       <key>ru</key>
       <value>Установить webhook</value>
     </synonym>
-    <group>ActionsPanelTools</group>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
+    <modifiesData>true</modifiesData>
     <representation>Auto</representation>
   </commands>
   <commands uuid="999ee774-f9fd-4225-97c3-648d319afebc">
@@ -91,7 +140,8 @@
       <key>ru</key>
       <value>Проверка статуса web hook</value>
     </synonym>
-    <group>ActionsPanelTools</group>
+    <group>FormCommandBarImportant</group>
+    <commandParameterType/>
     <representation>Auto</representation>
   </commands>
 </mdclass:Catalog>

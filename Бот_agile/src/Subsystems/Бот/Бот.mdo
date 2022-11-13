@@ -16,4 +16,5 @@
   <content>Catalog.Боты</content>
   <content>DataProcessor.РегламентныеФоновыеЗадания</content>
   <content>InformationRegister.НастройкиИнтеграцииTelegram</content>
+  <content>InformationRegister.ПриглашенияВКоманду</content>
 </mdclass:Subsystem>

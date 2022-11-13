@@ -50,6 +50,26 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="3b781cf8-7d4a-4837-986e-2bb364fa920a">
+    <name>username</name>
+    <synonym>
+      <key>ru</key>
+      <value>Username</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <attributes uuid="9909c6a0-7f88-4f8a-b663-302495d4b53e">
     <name>Активен</name>
     <synonym>
