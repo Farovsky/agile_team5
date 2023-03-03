@@ -20,10 +20,10 @@
     </synonym>
   </enumValues>
   <enumValues uuid="1952e85f-7b7d-45c5-bc18-457e553e5271">
-    <name>Ретроспектива</name>
+    <name>ОтчетПоДеятельности</name>
     <synonym>
       <key>ru</key>
-      <value>Ретроспектива</value>
+      <value>Отчет по деятельности</value>
     </synonym>
   </enumValues>
 </mdclass:Enum>

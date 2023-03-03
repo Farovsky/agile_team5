@@ -17,4 +17,5 @@
   <content>DataProcessor.РегламентныеФоновыеЗадания</content>
   <content>InformationRegister.НастройкиИнтеграцииTelegram</content>
   <content>InformationRegister.ПриглашенияВКоманду</content>
+  <content>BusinessProcess.ОтчетПоДеятельности</content>
 </mdclass:Subsystem>

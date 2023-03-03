@@ -101,7 +101,7 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Токен</name>
+    <name>chat_id</name>
     <id>7</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -109,10 +109,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Токен</segments>
+      <segments>Объект.chat_id</segments>
     </dataPath>
     <extendedTooltip>
-      <name>ТокенРасширеннаяПодсказка</name>
+      <name>chat_idРасширеннаяПодсказка</name>
       <id>9</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -127,7 +127,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>ТокенКонтекстноеМеню</name>
+      <name>chat_idКонтекстноеМеню</name>
       <id>8</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -145,14 +145,13 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
-      <passwordMode>true</passwordMode>
       <chooseType>true</chooseType>
       <typeDomainEnabled>true</typeDomainEnabled>
       <textEdit>true</textEdit>
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>АдресWebhook</name>
+    <name>username</name>
     <id>10</id>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -160,10 +159,10 @@
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.АдресWebhook</segments>
+      <segments>Объект.username</segments>
     </dataPath>
     <extendedTooltip>
-      <name>АдресWebhookРасширеннаяПодсказка</name>
+      <name>usernameРасширеннаяПодсказка</name>
       <id>12</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -178,7 +177,7 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>АдресWebhookКонтекстноеМеню</name>
+      <name>usernameКонтекстноеМеню</name>
       <id>11</id>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -202,19 +201,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Url</name>
-    <id>17</id>
+    <name>Команда</name>
+    <id>16</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Url</segments>
+      <segments>Объект.Команда</segments>
     </dataPath>
     <extendedTooltip>
-      <name>UrlРасширеннаяПодсказка</name>
-      <id>19</id>
+      <name>КомандаРасширеннаяПодсказка</name>
+      <id>18</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -228,8 +227,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>UrlКонтекстноеМеню</name>
-      <id>18</id>
+      <name>КомандаКонтекстноеМеню</name>
+      <id>17</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -238,7 +237,7 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>Enter</editMode>
+    <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
@@ -252,19 +251,19 @@
     </extInfo>
   </items>
   <items xsi:type="form:FormField">
-    <name>Комментарий</name>
-    <id>20</id>
+    <name>Роль</name>
+    <id>19</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
       <common>true</common>
     </userVisible>
     <dataPath xsi:type="form:DataPath">
-      <segments>Объект.Комментарий</segments>
+      <segments>Объект.Роль</segments>
     </dataPath>
     <extendedTooltip>
-      <name>КомментарийРасширеннаяПодсказка</name>
-      <id>22</id>
+      <name>РольРасширеннаяПодсказка</name>
+      <id>21</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -278,8 +277,8 @@
       </extInfo>
     </extendedTooltip>
     <contextMenu>
-      <name>КомментарийКонтекстноеМеню</name>
-      <id>21</id>
+      <name>РольКонтекстноеМеню</name>
+      <id>20</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -288,11 +287,12 @@
       <autoFill>true</autoFill>
     </contextMenu>
     <type>InputField</type>
-    <editMode>Enter</editMode>
+    <editMode>EnterOnInput</editMode>
     <showInHeader>true</showInHeader>
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:InputFieldExtInfo">
+      <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <wrap>true</wrap>
       <chooseType>true</chooseType>
@@ -300,39 +300,95 @@
       <textEdit>true</textEdit>
     </extInfo>
   </items>
-  <autoCommandBar>
-    <name>ФормаКоманднаяПанель</name>
-    <id>-1</id>
-    <items xsi:type="form:Button">
-      <name>ФормаУстановитьWebHook</name>
+  <items xsi:type="form:FormField">
+    <name>Активен</name>
+    <id>13</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.Активен</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>АктивенРасширеннаяПодсказка</name>
+      <id>15</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>АктивенКонтекстноеМеню</name>
+      <id>14</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <items xsi:type="form:FormField">
+    <name>НеПолучатьУведомления</name>
+    <id>22</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>Объект.НеПолучатьУведомления</segments>
+    </dataPath>
+    <extendedTooltip>
+      <name>НеПолучатьУведомленияРасширеннаяПодсказка</name>
+      <id>24</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>НеПолучатьУведомленияКонтекстноеМеню</name>
       <id>23</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
-      <extendedTooltip>
-        <name>ФормаУстановитьWebHookРасширеннаяПодсказка</name>
-        <id>24</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <commandName>Form.Command.УстановитьWebhook</commandName>
-      <representation>Auto</representation>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <placementArea>UserCmds</placementArea>
-      <representationInContextMenu>Auto</representationInContextMenu>
-    </items>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>EnterOnInput</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
+  <autoCommandBar>
+    <name>ФормаКоманднаяПанель</name>
+    <id>-1</id>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -354,7 +410,7 @@
     <name>Объект</name>
     <id>1</id>
     <valueType>
-      <types>CatalogObject.Боты</types>
+      <types>CatalogObject.Пользователи</types>
     </valueType>
     <view>
       <common>true</common>
@@ -365,23 +421,6 @@
     <main>true</main>
     <savedData>true</savedData>
   </attributes>
-  <formCommands>
-    <name>УстановитьWebhook</name>
-    <title>
-      <key>ru</key>
-      <value>Установить webhook</value>
-    </title>
-    <id>1</id>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>УстановитьWebhook</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

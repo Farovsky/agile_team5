@@ -8,4 +8,21 @@
   <rootURL>Telegram</rootURL>
   <reuseSessions>AutoUse</reuseSessions>
   <sessionMaxAge>20</sessionMaxAge>
+  <urlTemplates uuid="e7da4415-bc42-4768-be8b-7272b250f5cf">
+    <name>webhook</name>
+    <synonym>
+      <key>ru</key>
+      <value>Webhook</value>
+    </synonym>
+    <template>/webhook</template>
+    <methods uuid="d3204dc3-35df-41b4-ac6a-dfb2cb7ceb4e">
+      <name>message</name>
+      <synonym>
+        <key>ru</key>
+        <value>Message</value>
+      </synonym>
+      <httpMethod>POST</httpMethod>
+      <handler>webhookmessage</handler>
+    </methods>
+  </urlTemplates>
 </mdclass:HTTPService>

@@ -8,7 +8,6 @@
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="02884a38-9208-4fdd-9e0a-908c315c6a41"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="5a075c86-7a39-4986-b884-7423d88cb220"/>
   <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="0d2a6748-762b-4733-aa2e-cc9c3f4008ef"/>
-  <configurationExtensionCompatibilityMode>8.3.20</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -26,7 +25,7 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.20</compatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="4eb31822-11f2-469b-8d9a-2fa5bcfc354a">
     <name>Русский</name>
     <synonym>
@@ -74,5 +73,6 @@
   <informationRegisters>InformationRegister.НастройкиИнтеграцииTelegram</informationRegisters>
   <informationRegisters>InformationRegister.ПриглашенияВКоманду</informationRegisters>
   <businessProcesses>BusinessProcess.СтатусМитинг</businessProcesses>
+  <businessProcesses>BusinessProcess.ОтчетПоДеятельности</businessProcesses>
   <tasks>Task.ЗадачиПользователей</tasks>
 </mdclass:Configuration>
